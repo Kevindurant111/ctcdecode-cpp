@@ -67,10 +67,10 @@ RM = /opt/cmake-3.19.5/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /data/ctcdecode-cpp
+CMAKE_SOURCE_DIR = /data/work/ctcdecode-cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /data/ctcdecode-cpp/build
+CMAKE_BINARY_DIR = /data/work/ctcdecode-cpp/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -145,14 +145,14 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	cd /data/ctcdecode-cpp/build && $(CMAKE_COMMAND) -E cmake_progress_start /data/ctcdecode-cpp/build/CMakeFiles /data/ctcdecode-cpp/build/3rd_party/kenlm/lm/filter//CMakeFiles/progress.marks
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3rd_party/kenlm/lm/filter/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /data/ctcdecode-cpp/build/CMakeFiles 0
+	cd /data/work/ctcdecode-cpp/build && $(CMAKE_COMMAND) -E cmake_progress_start /data/work/ctcdecode-cpp/build/CMakeFiles /data/work/ctcdecode-cpp/build/3rd_party/kenlm/lm/filter//CMakeFiles/progress.marks
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3rd_party/kenlm/lm/filter/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /data/work/ctcdecode-cpp/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3rd_party/kenlm/lm/filter/clean
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3rd_party/kenlm/lm/filter/clean
 .PHONY : clean
 
 # The main clean target
@@ -162,22 +162,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3rd_party/kenlm/lm/filter/preinstall
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3rd_party/kenlm/lm/filter/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3rd_party/kenlm/lm/filter/preinstall
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3rd_party/kenlm/lm/filter/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /data/ctcdecode-cpp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /data/work/ctcdecode-cpp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 3rd_party/kenlm/lm/filter/CMakeFiles/filter.dir/rule:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3rd_party/kenlm/lm/filter/CMakeFiles/filter.dir/rule
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3rd_party/kenlm/lm/filter/CMakeFiles/filter.dir/rule
 .PHONY : 3rd_party/kenlm/lm/filter/CMakeFiles/filter.dir/rule
 
 # Convenience name for target.
@@ -187,12 +187,12 @@ filter: 3rd_party/kenlm/lm/filter/CMakeFiles/filter.dir/rule
 
 # fast build rule for target.
 filter/fast:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/filter/CMakeFiles/filter.dir/build.make 3rd_party/kenlm/lm/filter/CMakeFiles/filter.dir/build
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/filter/CMakeFiles/filter.dir/build.make 3rd_party/kenlm/lm/filter/CMakeFiles/filter.dir/build
 .PHONY : filter/fast
 
 # Convenience name for target.
 3rd_party/kenlm/lm/filter/CMakeFiles/kenlm_filter.dir/rule:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3rd_party/kenlm/lm/filter/CMakeFiles/kenlm_filter.dir/rule
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3rd_party/kenlm/lm/filter/CMakeFiles/kenlm_filter.dir/rule
 .PHONY : 3rd_party/kenlm/lm/filter/CMakeFiles/kenlm_filter.dir/rule
 
 # Convenience name for target.
@@ -202,12 +202,12 @@ kenlm_filter: 3rd_party/kenlm/lm/filter/CMakeFiles/kenlm_filter.dir/rule
 
 # fast build rule for target.
 kenlm_filter/fast:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/filter/CMakeFiles/kenlm_filter.dir/build.make 3rd_party/kenlm/lm/filter/CMakeFiles/kenlm_filter.dir/build
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/filter/CMakeFiles/kenlm_filter.dir/build.make 3rd_party/kenlm/lm/filter/CMakeFiles/kenlm_filter.dir/build
 .PHONY : kenlm_filter/fast
 
 # Convenience name for target.
 3rd_party/kenlm/lm/filter/CMakeFiles/phrase_table_vocab.dir/rule:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3rd_party/kenlm/lm/filter/CMakeFiles/phrase_table_vocab.dir/rule
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3rd_party/kenlm/lm/filter/CMakeFiles/phrase_table_vocab.dir/rule
 .PHONY : 3rd_party/kenlm/lm/filter/CMakeFiles/phrase_table_vocab.dir/rule
 
 # Convenience name for target.
@@ -217,7 +217,7 @@ phrase_table_vocab: 3rd_party/kenlm/lm/filter/CMakeFiles/phrase_table_vocab.dir/
 
 # fast build rule for target.
 phrase_table_vocab/fast:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/filter/CMakeFiles/phrase_table_vocab.dir/build.make 3rd_party/kenlm/lm/filter/CMakeFiles/phrase_table_vocab.dir/build
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/filter/CMakeFiles/phrase_table_vocab.dir/build.make 3rd_party/kenlm/lm/filter/CMakeFiles/phrase_table_vocab.dir/build
 .PHONY : phrase_table_vocab/fast
 
 arpa_io.o: arpa_io.cc.o
@@ -226,7 +226,7 @@ arpa_io.o: arpa_io.cc.o
 
 # target to build an object file
 arpa_io.cc.o:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/filter/CMakeFiles/kenlm_filter.dir/build.make 3rd_party/kenlm/lm/filter/CMakeFiles/kenlm_filter.dir/arpa_io.cc.o
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/filter/CMakeFiles/kenlm_filter.dir/build.make 3rd_party/kenlm/lm/filter/CMakeFiles/kenlm_filter.dir/arpa_io.cc.o
 .PHONY : arpa_io.cc.o
 
 arpa_io.i: arpa_io.cc.i
@@ -235,7 +235,7 @@ arpa_io.i: arpa_io.cc.i
 
 # target to preprocess a source file
 arpa_io.cc.i:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/filter/CMakeFiles/kenlm_filter.dir/build.make 3rd_party/kenlm/lm/filter/CMakeFiles/kenlm_filter.dir/arpa_io.cc.i
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/filter/CMakeFiles/kenlm_filter.dir/build.make 3rd_party/kenlm/lm/filter/CMakeFiles/kenlm_filter.dir/arpa_io.cc.i
 .PHONY : arpa_io.cc.i
 
 arpa_io.s: arpa_io.cc.s
@@ -244,7 +244,7 @@ arpa_io.s: arpa_io.cc.s
 
 # target to generate assembly for a file
 arpa_io.cc.s:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/filter/CMakeFiles/kenlm_filter.dir/build.make 3rd_party/kenlm/lm/filter/CMakeFiles/kenlm_filter.dir/arpa_io.cc.s
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/filter/CMakeFiles/kenlm_filter.dir/build.make 3rd_party/kenlm/lm/filter/CMakeFiles/kenlm_filter.dir/arpa_io.cc.s
 .PHONY : arpa_io.cc.s
 
 filter_main.o: filter_main.cc.o
@@ -253,7 +253,7 @@ filter_main.o: filter_main.cc.o
 
 # target to build an object file
 filter_main.cc.o:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/filter/CMakeFiles/filter.dir/build.make 3rd_party/kenlm/lm/filter/CMakeFiles/filter.dir/filter_main.cc.o
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/filter/CMakeFiles/filter.dir/build.make 3rd_party/kenlm/lm/filter/CMakeFiles/filter.dir/filter_main.cc.o
 .PHONY : filter_main.cc.o
 
 filter_main.i: filter_main.cc.i
@@ -262,7 +262,7 @@ filter_main.i: filter_main.cc.i
 
 # target to preprocess a source file
 filter_main.cc.i:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/filter/CMakeFiles/filter.dir/build.make 3rd_party/kenlm/lm/filter/CMakeFiles/filter.dir/filter_main.cc.i
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/filter/CMakeFiles/filter.dir/build.make 3rd_party/kenlm/lm/filter/CMakeFiles/filter.dir/filter_main.cc.i
 .PHONY : filter_main.cc.i
 
 filter_main.s: filter_main.cc.s
@@ -271,7 +271,7 @@ filter_main.s: filter_main.cc.s
 
 # target to generate assembly for a file
 filter_main.cc.s:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/filter/CMakeFiles/filter.dir/build.make 3rd_party/kenlm/lm/filter/CMakeFiles/filter.dir/filter_main.cc.s
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/filter/CMakeFiles/filter.dir/build.make 3rd_party/kenlm/lm/filter/CMakeFiles/filter.dir/filter_main.cc.s
 .PHONY : filter_main.cc.s
 
 phrase.o: phrase.cc.o
@@ -280,7 +280,7 @@ phrase.o: phrase.cc.o
 
 # target to build an object file
 phrase.cc.o:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/filter/CMakeFiles/kenlm_filter.dir/build.make 3rd_party/kenlm/lm/filter/CMakeFiles/kenlm_filter.dir/phrase.cc.o
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/filter/CMakeFiles/kenlm_filter.dir/build.make 3rd_party/kenlm/lm/filter/CMakeFiles/kenlm_filter.dir/phrase.cc.o
 .PHONY : phrase.cc.o
 
 phrase.i: phrase.cc.i
@@ -289,7 +289,7 @@ phrase.i: phrase.cc.i
 
 # target to preprocess a source file
 phrase.cc.i:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/filter/CMakeFiles/kenlm_filter.dir/build.make 3rd_party/kenlm/lm/filter/CMakeFiles/kenlm_filter.dir/phrase.cc.i
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/filter/CMakeFiles/kenlm_filter.dir/build.make 3rd_party/kenlm/lm/filter/CMakeFiles/kenlm_filter.dir/phrase.cc.i
 .PHONY : phrase.cc.i
 
 phrase.s: phrase.cc.s
@@ -298,7 +298,7 @@ phrase.s: phrase.cc.s
 
 # target to generate assembly for a file
 phrase.cc.s:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/filter/CMakeFiles/kenlm_filter.dir/build.make 3rd_party/kenlm/lm/filter/CMakeFiles/kenlm_filter.dir/phrase.cc.s
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/filter/CMakeFiles/kenlm_filter.dir/build.make 3rd_party/kenlm/lm/filter/CMakeFiles/kenlm_filter.dir/phrase.cc.s
 .PHONY : phrase.cc.s
 
 phrase_table_vocab_main.o: phrase_table_vocab_main.cc.o
@@ -307,7 +307,7 @@ phrase_table_vocab_main.o: phrase_table_vocab_main.cc.o
 
 # target to build an object file
 phrase_table_vocab_main.cc.o:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/filter/CMakeFiles/phrase_table_vocab.dir/build.make 3rd_party/kenlm/lm/filter/CMakeFiles/phrase_table_vocab.dir/phrase_table_vocab_main.cc.o
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/filter/CMakeFiles/phrase_table_vocab.dir/build.make 3rd_party/kenlm/lm/filter/CMakeFiles/phrase_table_vocab.dir/phrase_table_vocab_main.cc.o
 .PHONY : phrase_table_vocab_main.cc.o
 
 phrase_table_vocab_main.i: phrase_table_vocab_main.cc.i
@@ -316,7 +316,7 @@ phrase_table_vocab_main.i: phrase_table_vocab_main.cc.i
 
 # target to preprocess a source file
 phrase_table_vocab_main.cc.i:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/filter/CMakeFiles/phrase_table_vocab.dir/build.make 3rd_party/kenlm/lm/filter/CMakeFiles/phrase_table_vocab.dir/phrase_table_vocab_main.cc.i
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/filter/CMakeFiles/phrase_table_vocab.dir/build.make 3rd_party/kenlm/lm/filter/CMakeFiles/phrase_table_vocab.dir/phrase_table_vocab_main.cc.i
 .PHONY : phrase_table_vocab_main.cc.i
 
 phrase_table_vocab_main.s: phrase_table_vocab_main.cc.s
@@ -325,7 +325,7 @@ phrase_table_vocab_main.s: phrase_table_vocab_main.cc.s
 
 # target to generate assembly for a file
 phrase_table_vocab_main.cc.s:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/filter/CMakeFiles/phrase_table_vocab.dir/build.make 3rd_party/kenlm/lm/filter/CMakeFiles/phrase_table_vocab.dir/phrase_table_vocab_main.cc.s
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/filter/CMakeFiles/phrase_table_vocab.dir/build.make 3rd_party/kenlm/lm/filter/CMakeFiles/phrase_table_vocab.dir/phrase_table_vocab_main.cc.s
 .PHONY : phrase_table_vocab_main.cc.s
 
 vocab.o: vocab.cc.o
@@ -334,7 +334,7 @@ vocab.o: vocab.cc.o
 
 # target to build an object file
 vocab.cc.o:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/filter/CMakeFiles/kenlm_filter.dir/build.make 3rd_party/kenlm/lm/filter/CMakeFiles/kenlm_filter.dir/vocab.cc.o
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/filter/CMakeFiles/kenlm_filter.dir/build.make 3rd_party/kenlm/lm/filter/CMakeFiles/kenlm_filter.dir/vocab.cc.o
 .PHONY : vocab.cc.o
 
 vocab.i: vocab.cc.i
@@ -343,7 +343,7 @@ vocab.i: vocab.cc.i
 
 # target to preprocess a source file
 vocab.cc.i:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/filter/CMakeFiles/kenlm_filter.dir/build.make 3rd_party/kenlm/lm/filter/CMakeFiles/kenlm_filter.dir/vocab.cc.i
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/filter/CMakeFiles/kenlm_filter.dir/build.make 3rd_party/kenlm/lm/filter/CMakeFiles/kenlm_filter.dir/vocab.cc.i
 .PHONY : vocab.cc.i
 
 vocab.s: vocab.cc.s
@@ -352,7 +352,7 @@ vocab.s: vocab.cc.s
 
 # target to generate assembly for a file
 vocab.cc.s:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/filter/CMakeFiles/kenlm_filter.dir/build.make 3rd_party/kenlm/lm/filter/CMakeFiles/kenlm_filter.dir/vocab.cc.s
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/filter/CMakeFiles/kenlm_filter.dir/build.make 3rd_party/kenlm/lm/filter/CMakeFiles/kenlm_filter.dir/vocab.cc.s
 .PHONY : vocab.cc.s
 
 # Help Target
@@ -396,6 +396,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /data/ctcdecode-cpp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /data/work/ctcdecode-cpp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -67,10 +67,10 @@ RM = /opt/cmake-3.19.5/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /data/ctcdecode-cpp
+CMAKE_SOURCE_DIR = /data/work/ctcdecode-cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /data/ctcdecode-cpp/build
+CMAKE_BINARY_DIR = /data/work/ctcdecode-cpp/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -145,14 +145,14 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	cd /data/ctcdecode-cpp/build && $(CMAKE_COMMAND) -E cmake_progress_start /data/ctcdecode-cpp/build/CMakeFiles /data/ctcdecode-cpp/build/3rd_party/kenlm/lm/interpolate//CMakeFiles/progress.marks
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3rd_party/kenlm/lm/interpolate/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /data/ctcdecode-cpp/build/CMakeFiles 0
+	cd /data/work/ctcdecode-cpp/build && $(CMAKE_COMMAND) -E cmake_progress_start /data/work/ctcdecode-cpp/build/CMakeFiles /data/work/ctcdecode-cpp/build/3rd_party/kenlm/lm/interpolate//CMakeFiles/progress.marks
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3rd_party/kenlm/lm/interpolate/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /data/work/ctcdecode-cpp/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3rd_party/kenlm/lm/interpolate/clean
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3rd_party/kenlm/lm/interpolate/clean
 .PHONY : clean
 
 # The main clean target
@@ -162,22 +162,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3rd_party/kenlm/lm/interpolate/preinstall
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3rd_party/kenlm/lm/interpolate/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3rd_party/kenlm/lm/interpolate/preinstall
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3rd_party/kenlm/lm/interpolate/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /data/ctcdecode-cpp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /data/work/ctcdecode-cpp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/rule:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/rule
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/rule
 .PHONY : 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/rule
 
 # Convenience name for target.
@@ -187,12 +187,12 @@ kenlm_interpolate: 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.d
 
 # fast build rule for target.
 kenlm_interpolate/fast:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/build.make 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/build
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/build.make 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/build
 .PHONY : kenlm_interpolate/fast
 
 # Convenience name for target.
 3rd_party/kenlm/lm/interpolate/CMakeFiles/streaming_example.dir/rule:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3rd_party/kenlm/lm/interpolate/CMakeFiles/streaming_example.dir/rule
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3rd_party/kenlm/lm/interpolate/CMakeFiles/streaming_example.dir/rule
 .PHONY : 3rd_party/kenlm/lm/interpolate/CMakeFiles/streaming_example.dir/rule
 
 # Convenience name for target.
@@ -202,12 +202,12 @@ streaming_example: 3rd_party/kenlm/lm/interpolate/CMakeFiles/streaming_example.d
 
 # fast build rule for target.
 streaming_example/fast:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/interpolate/CMakeFiles/streaming_example.dir/build.make 3rd_party/kenlm/lm/interpolate/CMakeFiles/streaming_example.dir/build
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/interpolate/CMakeFiles/streaming_example.dir/build.make 3rd_party/kenlm/lm/interpolate/CMakeFiles/streaming_example.dir/build
 .PHONY : streaming_example/fast
 
 # Convenience name for target.
 3rd_party/kenlm/lm/interpolate/CMakeFiles/interpolate.dir/rule:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3rd_party/kenlm/lm/interpolate/CMakeFiles/interpolate.dir/rule
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3rd_party/kenlm/lm/interpolate/CMakeFiles/interpolate.dir/rule
 .PHONY : 3rd_party/kenlm/lm/interpolate/CMakeFiles/interpolate.dir/rule
 
 # Convenience name for target.
@@ -217,7 +217,7 @@ interpolate: 3rd_party/kenlm/lm/interpolate/CMakeFiles/interpolate.dir/rule
 
 # fast build rule for target.
 interpolate/fast:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/interpolate/CMakeFiles/interpolate.dir/build.make 3rd_party/kenlm/lm/interpolate/CMakeFiles/interpolate.dir/build
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/interpolate/CMakeFiles/interpolate.dir/build.make 3rd_party/kenlm/lm/interpolate/CMakeFiles/interpolate.dir/build
 .PHONY : interpolate/fast
 
 backoff_reunification.o: backoff_reunification.cc.o
@@ -226,7 +226,7 @@ backoff_reunification.o: backoff_reunification.cc.o
 
 # target to build an object file
 backoff_reunification.cc.o:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/build.make 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/backoff_reunification.cc.o
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/build.make 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/backoff_reunification.cc.o
 .PHONY : backoff_reunification.cc.o
 
 backoff_reunification.i: backoff_reunification.cc.i
@@ -235,7 +235,7 @@ backoff_reunification.i: backoff_reunification.cc.i
 
 # target to preprocess a source file
 backoff_reunification.cc.i:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/build.make 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/backoff_reunification.cc.i
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/build.make 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/backoff_reunification.cc.i
 .PHONY : backoff_reunification.cc.i
 
 backoff_reunification.s: backoff_reunification.cc.s
@@ -244,7 +244,7 @@ backoff_reunification.s: backoff_reunification.cc.s
 
 # target to generate assembly for a file
 backoff_reunification.cc.s:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/build.make 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/backoff_reunification.cc.s
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/build.make 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/backoff_reunification.cc.s
 .PHONY : backoff_reunification.cc.s
 
 bounded_sequence_encoding.o: bounded_sequence_encoding.cc.o
@@ -253,7 +253,7 @@ bounded_sequence_encoding.o: bounded_sequence_encoding.cc.o
 
 # target to build an object file
 bounded_sequence_encoding.cc.o:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/build.make 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/bounded_sequence_encoding.cc.o
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/build.make 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/bounded_sequence_encoding.cc.o
 .PHONY : bounded_sequence_encoding.cc.o
 
 bounded_sequence_encoding.i: bounded_sequence_encoding.cc.i
@@ -262,7 +262,7 @@ bounded_sequence_encoding.i: bounded_sequence_encoding.cc.i
 
 # target to preprocess a source file
 bounded_sequence_encoding.cc.i:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/build.make 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/bounded_sequence_encoding.cc.i
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/build.make 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/bounded_sequence_encoding.cc.i
 .PHONY : bounded_sequence_encoding.cc.i
 
 bounded_sequence_encoding.s: bounded_sequence_encoding.cc.s
@@ -271,7 +271,7 @@ bounded_sequence_encoding.s: bounded_sequence_encoding.cc.s
 
 # target to generate assembly for a file
 bounded_sequence_encoding.cc.s:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/build.make 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/bounded_sequence_encoding.cc.s
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/build.make 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/bounded_sequence_encoding.cc.s
 .PHONY : bounded_sequence_encoding.cc.s
 
 interpolate_main.o: interpolate_main.cc.o
@@ -280,7 +280,7 @@ interpolate_main.o: interpolate_main.cc.o
 
 # target to build an object file
 interpolate_main.cc.o:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/interpolate/CMakeFiles/interpolate.dir/build.make 3rd_party/kenlm/lm/interpolate/CMakeFiles/interpolate.dir/interpolate_main.cc.o
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/interpolate/CMakeFiles/interpolate.dir/build.make 3rd_party/kenlm/lm/interpolate/CMakeFiles/interpolate.dir/interpolate_main.cc.o
 .PHONY : interpolate_main.cc.o
 
 interpolate_main.i: interpolate_main.cc.i
@@ -289,7 +289,7 @@ interpolate_main.i: interpolate_main.cc.i
 
 # target to preprocess a source file
 interpolate_main.cc.i:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/interpolate/CMakeFiles/interpolate.dir/build.make 3rd_party/kenlm/lm/interpolate/CMakeFiles/interpolate.dir/interpolate_main.cc.i
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/interpolate/CMakeFiles/interpolate.dir/build.make 3rd_party/kenlm/lm/interpolate/CMakeFiles/interpolate.dir/interpolate_main.cc.i
 .PHONY : interpolate_main.cc.i
 
 interpolate_main.s: interpolate_main.cc.s
@@ -298,7 +298,7 @@ interpolate_main.s: interpolate_main.cc.s
 
 # target to generate assembly for a file
 interpolate_main.cc.s:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/interpolate/CMakeFiles/interpolate.dir/build.make 3rd_party/kenlm/lm/interpolate/CMakeFiles/interpolate.dir/interpolate_main.cc.s
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/interpolate/CMakeFiles/interpolate.dir/build.make 3rd_party/kenlm/lm/interpolate/CMakeFiles/interpolate.dir/interpolate_main.cc.s
 .PHONY : interpolate_main.cc.s
 
 merge_probabilities.o: merge_probabilities.cc.o
@@ -307,7 +307,7 @@ merge_probabilities.o: merge_probabilities.cc.o
 
 # target to build an object file
 merge_probabilities.cc.o:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/build.make 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/merge_probabilities.cc.o
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/build.make 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/merge_probabilities.cc.o
 .PHONY : merge_probabilities.cc.o
 
 merge_probabilities.i: merge_probabilities.cc.i
@@ -316,7 +316,7 @@ merge_probabilities.i: merge_probabilities.cc.i
 
 # target to preprocess a source file
 merge_probabilities.cc.i:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/build.make 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/merge_probabilities.cc.i
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/build.make 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/merge_probabilities.cc.i
 .PHONY : merge_probabilities.cc.i
 
 merge_probabilities.s: merge_probabilities.cc.s
@@ -325,7 +325,7 @@ merge_probabilities.s: merge_probabilities.cc.s
 
 # target to generate assembly for a file
 merge_probabilities.cc.s:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/build.make 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/merge_probabilities.cc.s
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/build.make 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/merge_probabilities.cc.s
 .PHONY : merge_probabilities.cc.s
 
 merge_vocab.o: merge_vocab.cc.o
@@ -334,7 +334,7 @@ merge_vocab.o: merge_vocab.cc.o
 
 # target to build an object file
 merge_vocab.cc.o:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/build.make 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/merge_vocab.cc.o
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/build.make 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/merge_vocab.cc.o
 .PHONY : merge_vocab.cc.o
 
 merge_vocab.i: merge_vocab.cc.i
@@ -343,7 +343,7 @@ merge_vocab.i: merge_vocab.cc.i
 
 # target to preprocess a source file
 merge_vocab.cc.i:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/build.make 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/merge_vocab.cc.i
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/build.make 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/merge_vocab.cc.i
 .PHONY : merge_vocab.cc.i
 
 merge_vocab.s: merge_vocab.cc.s
@@ -352,7 +352,7 @@ merge_vocab.s: merge_vocab.cc.s
 
 # target to generate assembly for a file
 merge_vocab.cc.s:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/build.make 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/merge_vocab.cc.s
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/build.make 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/merge_vocab.cc.s
 .PHONY : merge_vocab.cc.s
 
 normalize.o: normalize.cc.o
@@ -361,7 +361,7 @@ normalize.o: normalize.cc.o
 
 # target to build an object file
 normalize.cc.o:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/build.make 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/normalize.cc.o
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/build.make 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/normalize.cc.o
 .PHONY : normalize.cc.o
 
 normalize.i: normalize.cc.i
@@ -370,7 +370,7 @@ normalize.i: normalize.cc.i
 
 # target to preprocess a source file
 normalize.cc.i:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/build.make 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/normalize.cc.i
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/build.make 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/normalize.cc.i
 .PHONY : normalize.cc.i
 
 normalize.s: normalize.cc.s
@@ -379,7 +379,7 @@ normalize.s: normalize.cc.s
 
 # target to generate assembly for a file
 normalize.cc.s:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/build.make 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/normalize.cc.s
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/build.make 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/normalize.cc.s
 .PHONY : normalize.cc.s
 
 pipeline.o: pipeline.cc.o
@@ -388,7 +388,7 @@ pipeline.o: pipeline.cc.o
 
 # target to build an object file
 pipeline.cc.o:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/build.make 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/pipeline.cc.o
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/build.make 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/pipeline.cc.o
 .PHONY : pipeline.cc.o
 
 pipeline.i: pipeline.cc.i
@@ -397,7 +397,7 @@ pipeline.i: pipeline.cc.i
 
 # target to preprocess a source file
 pipeline.cc.i:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/build.make 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/pipeline.cc.i
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/build.make 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/pipeline.cc.i
 .PHONY : pipeline.cc.i
 
 pipeline.s: pipeline.cc.s
@@ -406,7 +406,7 @@ pipeline.s: pipeline.cc.s
 
 # target to generate assembly for a file
 pipeline.cc.s:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/build.make 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/pipeline.cc.s
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/build.make 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/pipeline.cc.s
 .PHONY : pipeline.cc.s
 
 split_worker.o: split_worker.cc.o
@@ -415,7 +415,7 @@ split_worker.o: split_worker.cc.o
 
 # target to build an object file
 split_worker.cc.o:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/build.make 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/split_worker.cc.o
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/build.make 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/split_worker.cc.o
 .PHONY : split_worker.cc.o
 
 split_worker.i: split_worker.cc.i
@@ -424,7 +424,7 @@ split_worker.i: split_worker.cc.i
 
 # target to preprocess a source file
 split_worker.cc.i:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/build.make 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/split_worker.cc.i
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/build.make 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/split_worker.cc.i
 .PHONY : split_worker.cc.i
 
 split_worker.s: split_worker.cc.s
@@ -433,7 +433,7 @@ split_worker.s: split_worker.cc.s
 
 # target to generate assembly for a file
 split_worker.cc.s:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/build.make 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/split_worker.cc.s
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/build.make 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/split_worker.cc.s
 .PHONY : split_worker.cc.s
 
 streaming_example_main.o: streaming_example_main.cc.o
@@ -442,7 +442,7 @@ streaming_example_main.o: streaming_example_main.cc.o
 
 # target to build an object file
 streaming_example_main.cc.o:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/interpolate/CMakeFiles/streaming_example.dir/build.make 3rd_party/kenlm/lm/interpolate/CMakeFiles/streaming_example.dir/streaming_example_main.cc.o
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/interpolate/CMakeFiles/streaming_example.dir/build.make 3rd_party/kenlm/lm/interpolate/CMakeFiles/streaming_example.dir/streaming_example_main.cc.o
 .PHONY : streaming_example_main.cc.o
 
 streaming_example_main.i: streaming_example_main.cc.i
@@ -451,7 +451,7 @@ streaming_example_main.i: streaming_example_main.cc.i
 
 # target to preprocess a source file
 streaming_example_main.cc.i:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/interpolate/CMakeFiles/streaming_example.dir/build.make 3rd_party/kenlm/lm/interpolate/CMakeFiles/streaming_example.dir/streaming_example_main.cc.i
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/interpolate/CMakeFiles/streaming_example.dir/build.make 3rd_party/kenlm/lm/interpolate/CMakeFiles/streaming_example.dir/streaming_example_main.cc.i
 .PHONY : streaming_example_main.cc.i
 
 streaming_example_main.s: streaming_example_main.cc.s
@@ -460,7 +460,7 @@ streaming_example_main.s: streaming_example_main.cc.s
 
 # target to generate assembly for a file
 streaming_example_main.cc.s:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/interpolate/CMakeFiles/streaming_example.dir/build.make 3rd_party/kenlm/lm/interpolate/CMakeFiles/streaming_example.dir/streaming_example_main.cc.s
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/interpolate/CMakeFiles/streaming_example.dir/build.make 3rd_party/kenlm/lm/interpolate/CMakeFiles/streaming_example.dir/streaming_example_main.cc.s
 .PHONY : streaming_example_main.cc.s
 
 tune_derivatives.o: tune_derivatives.cc.o
@@ -469,7 +469,7 @@ tune_derivatives.o: tune_derivatives.cc.o
 
 # target to build an object file
 tune_derivatives.cc.o:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/build.make 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/tune_derivatives.cc.o
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/build.make 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/tune_derivatives.cc.o
 .PHONY : tune_derivatives.cc.o
 
 tune_derivatives.i: tune_derivatives.cc.i
@@ -478,7 +478,7 @@ tune_derivatives.i: tune_derivatives.cc.i
 
 # target to preprocess a source file
 tune_derivatives.cc.i:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/build.make 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/tune_derivatives.cc.i
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/build.make 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/tune_derivatives.cc.i
 .PHONY : tune_derivatives.cc.i
 
 tune_derivatives.s: tune_derivatives.cc.s
@@ -487,7 +487,7 @@ tune_derivatives.s: tune_derivatives.cc.s
 
 # target to generate assembly for a file
 tune_derivatives.cc.s:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/build.make 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/tune_derivatives.cc.s
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/build.make 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/tune_derivatives.cc.s
 .PHONY : tune_derivatives.cc.s
 
 tune_instances.o: tune_instances.cc.o
@@ -496,7 +496,7 @@ tune_instances.o: tune_instances.cc.o
 
 # target to build an object file
 tune_instances.cc.o:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/build.make 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/tune_instances.cc.o
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/build.make 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/tune_instances.cc.o
 .PHONY : tune_instances.cc.o
 
 tune_instances.i: tune_instances.cc.i
@@ -505,7 +505,7 @@ tune_instances.i: tune_instances.cc.i
 
 # target to preprocess a source file
 tune_instances.cc.i:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/build.make 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/tune_instances.cc.i
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/build.make 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/tune_instances.cc.i
 .PHONY : tune_instances.cc.i
 
 tune_instances.s: tune_instances.cc.s
@@ -514,7 +514,7 @@ tune_instances.s: tune_instances.cc.s
 
 # target to generate assembly for a file
 tune_instances.cc.s:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/build.make 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/tune_instances.cc.s
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/build.make 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/tune_instances.cc.s
 .PHONY : tune_instances.cc.s
 
 tune_weights.o: tune_weights.cc.o
@@ -523,7 +523,7 @@ tune_weights.o: tune_weights.cc.o
 
 # target to build an object file
 tune_weights.cc.o:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/build.make 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/tune_weights.cc.o
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/build.make 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/tune_weights.cc.o
 .PHONY : tune_weights.cc.o
 
 tune_weights.i: tune_weights.cc.i
@@ -532,7 +532,7 @@ tune_weights.i: tune_weights.cc.i
 
 # target to preprocess a source file
 tune_weights.cc.i:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/build.make 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/tune_weights.cc.i
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/build.make 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/tune_weights.cc.i
 .PHONY : tune_weights.cc.i
 
 tune_weights.s: tune_weights.cc.s
@@ -541,7 +541,7 @@ tune_weights.s: tune_weights.cc.s
 
 # target to generate assembly for a file
 tune_weights.cc.s:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/build.make 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/tune_weights.cc.s
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/build.make 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/tune_weights.cc.s
 .PHONY : tune_weights.cc.s
 
 universal_vocab.o: universal_vocab.cc.o
@@ -550,7 +550,7 @@ universal_vocab.o: universal_vocab.cc.o
 
 # target to build an object file
 universal_vocab.cc.o:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/build.make 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/universal_vocab.cc.o
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/build.make 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/universal_vocab.cc.o
 .PHONY : universal_vocab.cc.o
 
 universal_vocab.i: universal_vocab.cc.i
@@ -559,7 +559,7 @@ universal_vocab.i: universal_vocab.cc.i
 
 # target to preprocess a source file
 universal_vocab.cc.i:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/build.make 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/universal_vocab.cc.i
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/build.make 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/universal_vocab.cc.i
 .PHONY : universal_vocab.cc.i
 
 universal_vocab.s: universal_vocab.cc.s
@@ -568,7 +568,7 @@ universal_vocab.s: universal_vocab.cc.s
 
 # target to generate assembly for a file
 universal_vocab.cc.s:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/build.make 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/universal_vocab.cc.s
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/build.make 3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/universal_vocab.cc.s
 .PHONY : universal_vocab.cc.s
 
 # Help Target
@@ -636,6 +636,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /data/ctcdecode-cpp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /data/work/ctcdecode-cpp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

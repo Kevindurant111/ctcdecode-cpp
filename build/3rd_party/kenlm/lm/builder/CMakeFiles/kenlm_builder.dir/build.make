@@ -62,10 +62,10 @@ RM = /opt/cmake-3.19.5/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /data/ctcdecode-cpp
+CMAKE_SOURCE_DIR = /data/work/ctcdecode-cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /data/ctcdecode-cpp/build
+CMAKE_BINARY_DIR = /data/work/ctcdecode-cpp/build
 
 # Include any dependencies generated for this target.
 include 3rd_party/kenlm/lm/builder/CMakeFiles/kenlm_builder.dir/depend.make
@@ -78,81 +78,81 @@ include 3rd_party/kenlm/lm/builder/CMakeFiles/kenlm_builder.dir/flags.make
 
 3rd_party/kenlm/lm/builder/CMakeFiles/kenlm_builder.dir/adjust_counts.cc.o: 3rd_party/kenlm/lm/builder/CMakeFiles/kenlm_builder.dir/flags.make
 3rd_party/kenlm/lm/builder/CMakeFiles/kenlm_builder.dir/adjust_counts.cc.o: ../3rd_party/kenlm/lm/builder/adjust_counts.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/data/ctcdecode-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object 3rd_party/kenlm/lm/builder/CMakeFiles/kenlm_builder.dir/adjust_counts.cc.o"
-	cd /data/ctcdecode-cpp/build/3rd_party/kenlm/lm/builder && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kenlm_builder.dir/adjust_counts.cc.o -c /data/ctcdecode-cpp/3rd_party/kenlm/lm/builder/adjust_counts.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/data/work/ctcdecode-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object 3rd_party/kenlm/lm/builder/CMakeFiles/kenlm_builder.dir/adjust_counts.cc.o"
+	cd /data/work/ctcdecode-cpp/build/3rd_party/kenlm/lm/builder && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kenlm_builder.dir/adjust_counts.cc.o -c /data/work/ctcdecode-cpp/3rd_party/kenlm/lm/builder/adjust_counts.cc
 
 3rd_party/kenlm/lm/builder/CMakeFiles/kenlm_builder.dir/adjust_counts.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kenlm_builder.dir/adjust_counts.cc.i"
-	cd /data/ctcdecode-cpp/build/3rd_party/kenlm/lm/builder && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/ctcdecode-cpp/3rd_party/kenlm/lm/builder/adjust_counts.cc > CMakeFiles/kenlm_builder.dir/adjust_counts.cc.i
+	cd /data/work/ctcdecode-cpp/build/3rd_party/kenlm/lm/builder && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/work/ctcdecode-cpp/3rd_party/kenlm/lm/builder/adjust_counts.cc > CMakeFiles/kenlm_builder.dir/adjust_counts.cc.i
 
 3rd_party/kenlm/lm/builder/CMakeFiles/kenlm_builder.dir/adjust_counts.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kenlm_builder.dir/adjust_counts.cc.s"
-	cd /data/ctcdecode-cpp/build/3rd_party/kenlm/lm/builder && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/ctcdecode-cpp/3rd_party/kenlm/lm/builder/adjust_counts.cc -o CMakeFiles/kenlm_builder.dir/adjust_counts.cc.s
+	cd /data/work/ctcdecode-cpp/build/3rd_party/kenlm/lm/builder && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/work/ctcdecode-cpp/3rd_party/kenlm/lm/builder/adjust_counts.cc -o CMakeFiles/kenlm_builder.dir/adjust_counts.cc.s
 
 3rd_party/kenlm/lm/builder/CMakeFiles/kenlm_builder.dir/corpus_count.cc.o: 3rd_party/kenlm/lm/builder/CMakeFiles/kenlm_builder.dir/flags.make
 3rd_party/kenlm/lm/builder/CMakeFiles/kenlm_builder.dir/corpus_count.cc.o: ../3rd_party/kenlm/lm/builder/corpus_count.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/data/ctcdecode-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object 3rd_party/kenlm/lm/builder/CMakeFiles/kenlm_builder.dir/corpus_count.cc.o"
-	cd /data/ctcdecode-cpp/build/3rd_party/kenlm/lm/builder && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kenlm_builder.dir/corpus_count.cc.o -c /data/ctcdecode-cpp/3rd_party/kenlm/lm/builder/corpus_count.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/data/work/ctcdecode-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object 3rd_party/kenlm/lm/builder/CMakeFiles/kenlm_builder.dir/corpus_count.cc.o"
+	cd /data/work/ctcdecode-cpp/build/3rd_party/kenlm/lm/builder && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kenlm_builder.dir/corpus_count.cc.o -c /data/work/ctcdecode-cpp/3rd_party/kenlm/lm/builder/corpus_count.cc
 
 3rd_party/kenlm/lm/builder/CMakeFiles/kenlm_builder.dir/corpus_count.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kenlm_builder.dir/corpus_count.cc.i"
-	cd /data/ctcdecode-cpp/build/3rd_party/kenlm/lm/builder && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/ctcdecode-cpp/3rd_party/kenlm/lm/builder/corpus_count.cc > CMakeFiles/kenlm_builder.dir/corpus_count.cc.i
+	cd /data/work/ctcdecode-cpp/build/3rd_party/kenlm/lm/builder && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/work/ctcdecode-cpp/3rd_party/kenlm/lm/builder/corpus_count.cc > CMakeFiles/kenlm_builder.dir/corpus_count.cc.i
 
 3rd_party/kenlm/lm/builder/CMakeFiles/kenlm_builder.dir/corpus_count.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kenlm_builder.dir/corpus_count.cc.s"
-	cd /data/ctcdecode-cpp/build/3rd_party/kenlm/lm/builder && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/ctcdecode-cpp/3rd_party/kenlm/lm/builder/corpus_count.cc -o CMakeFiles/kenlm_builder.dir/corpus_count.cc.s
+	cd /data/work/ctcdecode-cpp/build/3rd_party/kenlm/lm/builder && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/work/ctcdecode-cpp/3rd_party/kenlm/lm/builder/corpus_count.cc -o CMakeFiles/kenlm_builder.dir/corpus_count.cc.s
 
 3rd_party/kenlm/lm/builder/CMakeFiles/kenlm_builder.dir/initial_probabilities.cc.o: 3rd_party/kenlm/lm/builder/CMakeFiles/kenlm_builder.dir/flags.make
 3rd_party/kenlm/lm/builder/CMakeFiles/kenlm_builder.dir/initial_probabilities.cc.o: ../3rd_party/kenlm/lm/builder/initial_probabilities.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/data/ctcdecode-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object 3rd_party/kenlm/lm/builder/CMakeFiles/kenlm_builder.dir/initial_probabilities.cc.o"
-	cd /data/ctcdecode-cpp/build/3rd_party/kenlm/lm/builder && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kenlm_builder.dir/initial_probabilities.cc.o -c /data/ctcdecode-cpp/3rd_party/kenlm/lm/builder/initial_probabilities.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/data/work/ctcdecode-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object 3rd_party/kenlm/lm/builder/CMakeFiles/kenlm_builder.dir/initial_probabilities.cc.o"
+	cd /data/work/ctcdecode-cpp/build/3rd_party/kenlm/lm/builder && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kenlm_builder.dir/initial_probabilities.cc.o -c /data/work/ctcdecode-cpp/3rd_party/kenlm/lm/builder/initial_probabilities.cc
 
 3rd_party/kenlm/lm/builder/CMakeFiles/kenlm_builder.dir/initial_probabilities.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kenlm_builder.dir/initial_probabilities.cc.i"
-	cd /data/ctcdecode-cpp/build/3rd_party/kenlm/lm/builder && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/ctcdecode-cpp/3rd_party/kenlm/lm/builder/initial_probabilities.cc > CMakeFiles/kenlm_builder.dir/initial_probabilities.cc.i
+	cd /data/work/ctcdecode-cpp/build/3rd_party/kenlm/lm/builder && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/work/ctcdecode-cpp/3rd_party/kenlm/lm/builder/initial_probabilities.cc > CMakeFiles/kenlm_builder.dir/initial_probabilities.cc.i
 
 3rd_party/kenlm/lm/builder/CMakeFiles/kenlm_builder.dir/initial_probabilities.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kenlm_builder.dir/initial_probabilities.cc.s"
-	cd /data/ctcdecode-cpp/build/3rd_party/kenlm/lm/builder && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/ctcdecode-cpp/3rd_party/kenlm/lm/builder/initial_probabilities.cc -o CMakeFiles/kenlm_builder.dir/initial_probabilities.cc.s
+	cd /data/work/ctcdecode-cpp/build/3rd_party/kenlm/lm/builder && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/work/ctcdecode-cpp/3rd_party/kenlm/lm/builder/initial_probabilities.cc -o CMakeFiles/kenlm_builder.dir/initial_probabilities.cc.s
 
 3rd_party/kenlm/lm/builder/CMakeFiles/kenlm_builder.dir/interpolate.cc.o: 3rd_party/kenlm/lm/builder/CMakeFiles/kenlm_builder.dir/flags.make
 3rd_party/kenlm/lm/builder/CMakeFiles/kenlm_builder.dir/interpolate.cc.o: ../3rd_party/kenlm/lm/builder/interpolate.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/data/ctcdecode-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object 3rd_party/kenlm/lm/builder/CMakeFiles/kenlm_builder.dir/interpolate.cc.o"
-	cd /data/ctcdecode-cpp/build/3rd_party/kenlm/lm/builder && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kenlm_builder.dir/interpolate.cc.o -c /data/ctcdecode-cpp/3rd_party/kenlm/lm/builder/interpolate.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/data/work/ctcdecode-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object 3rd_party/kenlm/lm/builder/CMakeFiles/kenlm_builder.dir/interpolate.cc.o"
+	cd /data/work/ctcdecode-cpp/build/3rd_party/kenlm/lm/builder && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kenlm_builder.dir/interpolate.cc.o -c /data/work/ctcdecode-cpp/3rd_party/kenlm/lm/builder/interpolate.cc
 
 3rd_party/kenlm/lm/builder/CMakeFiles/kenlm_builder.dir/interpolate.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kenlm_builder.dir/interpolate.cc.i"
-	cd /data/ctcdecode-cpp/build/3rd_party/kenlm/lm/builder && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/ctcdecode-cpp/3rd_party/kenlm/lm/builder/interpolate.cc > CMakeFiles/kenlm_builder.dir/interpolate.cc.i
+	cd /data/work/ctcdecode-cpp/build/3rd_party/kenlm/lm/builder && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/work/ctcdecode-cpp/3rd_party/kenlm/lm/builder/interpolate.cc > CMakeFiles/kenlm_builder.dir/interpolate.cc.i
 
 3rd_party/kenlm/lm/builder/CMakeFiles/kenlm_builder.dir/interpolate.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kenlm_builder.dir/interpolate.cc.s"
-	cd /data/ctcdecode-cpp/build/3rd_party/kenlm/lm/builder && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/ctcdecode-cpp/3rd_party/kenlm/lm/builder/interpolate.cc -o CMakeFiles/kenlm_builder.dir/interpolate.cc.s
+	cd /data/work/ctcdecode-cpp/build/3rd_party/kenlm/lm/builder && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/work/ctcdecode-cpp/3rd_party/kenlm/lm/builder/interpolate.cc -o CMakeFiles/kenlm_builder.dir/interpolate.cc.s
 
 3rd_party/kenlm/lm/builder/CMakeFiles/kenlm_builder.dir/output.cc.o: 3rd_party/kenlm/lm/builder/CMakeFiles/kenlm_builder.dir/flags.make
 3rd_party/kenlm/lm/builder/CMakeFiles/kenlm_builder.dir/output.cc.o: ../3rd_party/kenlm/lm/builder/output.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/data/ctcdecode-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object 3rd_party/kenlm/lm/builder/CMakeFiles/kenlm_builder.dir/output.cc.o"
-	cd /data/ctcdecode-cpp/build/3rd_party/kenlm/lm/builder && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kenlm_builder.dir/output.cc.o -c /data/ctcdecode-cpp/3rd_party/kenlm/lm/builder/output.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/data/work/ctcdecode-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object 3rd_party/kenlm/lm/builder/CMakeFiles/kenlm_builder.dir/output.cc.o"
+	cd /data/work/ctcdecode-cpp/build/3rd_party/kenlm/lm/builder && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kenlm_builder.dir/output.cc.o -c /data/work/ctcdecode-cpp/3rd_party/kenlm/lm/builder/output.cc
 
 3rd_party/kenlm/lm/builder/CMakeFiles/kenlm_builder.dir/output.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kenlm_builder.dir/output.cc.i"
-	cd /data/ctcdecode-cpp/build/3rd_party/kenlm/lm/builder && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/ctcdecode-cpp/3rd_party/kenlm/lm/builder/output.cc > CMakeFiles/kenlm_builder.dir/output.cc.i
+	cd /data/work/ctcdecode-cpp/build/3rd_party/kenlm/lm/builder && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/work/ctcdecode-cpp/3rd_party/kenlm/lm/builder/output.cc > CMakeFiles/kenlm_builder.dir/output.cc.i
 
 3rd_party/kenlm/lm/builder/CMakeFiles/kenlm_builder.dir/output.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kenlm_builder.dir/output.cc.s"
-	cd /data/ctcdecode-cpp/build/3rd_party/kenlm/lm/builder && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/ctcdecode-cpp/3rd_party/kenlm/lm/builder/output.cc -o CMakeFiles/kenlm_builder.dir/output.cc.s
+	cd /data/work/ctcdecode-cpp/build/3rd_party/kenlm/lm/builder && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/work/ctcdecode-cpp/3rd_party/kenlm/lm/builder/output.cc -o CMakeFiles/kenlm_builder.dir/output.cc.s
 
 3rd_party/kenlm/lm/builder/CMakeFiles/kenlm_builder.dir/pipeline.cc.o: 3rd_party/kenlm/lm/builder/CMakeFiles/kenlm_builder.dir/flags.make
 3rd_party/kenlm/lm/builder/CMakeFiles/kenlm_builder.dir/pipeline.cc.o: ../3rd_party/kenlm/lm/builder/pipeline.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/data/ctcdecode-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object 3rd_party/kenlm/lm/builder/CMakeFiles/kenlm_builder.dir/pipeline.cc.o"
-	cd /data/ctcdecode-cpp/build/3rd_party/kenlm/lm/builder && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kenlm_builder.dir/pipeline.cc.o -c /data/ctcdecode-cpp/3rd_party/kenlm/lm/builder/pipeline.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/data/work/ctcdecode-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object 3rd_party/kenlm/lm/builder/CMakeFiles/kenlm_builder.dir/pipeline.cc.o"
+	cd /data/work/ctcdecode-cpp/build/3rd_party/kenlm/lm/builder && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kenlm_builder.dir/pipeline.cc.o -c /data/work/ctcdecode-cpp/3rd_party/kenlm/lm/builder/pipeline.cc
 
 3rd_party/kenlm/lm/builder/CMakeFiles/kenlm_builder.dir/pipeline.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kenlm_builder.dir/pipeline.cc.i"
-	cd /data/ctcdecode-cpp/build/3rd_party/kenlm/lm/builder && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/ctcdecode-cpp/3rd_party/kenlm/lm/builder/pipeline.cc > CMakeFiles/kenlm_builder.dir/pipeline.cc.i
+	cd /data/work/ctcdecode-cpp/build/3rd_party/kenlm/lm/builder && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/work/ctcdecode-cpp/3rd_party/kenlm/lm/builder/pipeline.cc > CMakeFiles/kenlm_builder.dir/pipeline.cc.i
 
 3rd_party/kenlm/lm/builder/CMakeFiles/kenlm_builder.dir/pipeline.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kenlm_builder.dir/pipeline.cc.s"
-	cd /data/ctcdecode-cpp/build/3rd_party/kenlm/lm/builder && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/ctcdecode-cpp/3rd_party/kenlm/lm/builder/pipeline.cc -o CMakeFiles/kenlm_builder.dir/pipeline.cc.s
+	cd /data/work/ctcdecode-cpp/build/3rd_party/kenlm/lm/builder && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/work/ctcdecode-cpp/3rd_party/kenlm/lm/builder/pipeline.cc -o CMakeFiles/kenlm_builder.dir/pipeline.cc.s
 
 # Object files for target kenlm_builder
 kenlm_builder_OBJECTS = \
@@ -181,8 +181,8 @@ kenlm_builder_EXTERNAL_OBJECTS =
 3rd_party/kenlm/lib/libkenlm_builder.so: /usr/lib/aarch64-linux-gnu/libboost_atomic.so.1.71.0
 3rd_party/kenlm/lib/libkenlm_builder.so: /usr/lib/aarch64-linux-gnu/libboost_unit_test_framework.so.1.71.0
 3rd_party/kenlm/lib/libkenlm_builder.so: 3rd_party/kenlm/lm/builder/CMakeFiles/kenlm_builder.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/data/ctcdecode-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX shared library ../../lib/libkenlm_builder.so"
-	cd /data/ctcdecode-cpp/build/3rd_party/kenlm/lm/builder && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/kenlm_builder.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/data/work/ctcdecode-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX shared library ../../lib/libkenlm_builder.so"
+	cd /data/work/ctcdecode-cpp/build/3rd_party/kenlm/lm/builder && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/kenlm_builder.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 3rd_party/kenlm/lm/builder/CMakeFiles/kenlm_builder.dir/build: 3rd_party/kenlm/lib/libkenlm_builder.so
@@ -190,10 +190,10 @@ kenlm_builder_EXTERNAL_OBJECTS =
 .PHONY : 3rd_party/kenlm/lm/builder/CMakeFiles/kenlm_builder.dir/build
 
 3rd_party/kenlm/lm/builder/CMakeFiles/kenlm_builder.dir/clean:
-	cd /data/ctcdecode-cpp/build/3rd_party/kenlm/lm/builder && $(CMAKE_COMMAND) -P CMakeFiles/kenlm_builder.dir/cmake_clean.cmake
+	cd /data/work/ctcdecode-cpp/build/3rd_party/kenlm/lm/builder && $(CMAKE_COMMAND) -P CMakeFiles/kenlm_builder.dir/cmake_clean.cmake
 .PHONY : 3rd_party/kenlm/lm/builder/CMakeFiles/kenlm_builder.dir/clean
 
 3rd_party/kenlm/lm/builder/CMakeFiles/kenlm_builder.dir/depend:
-	cd /data/ctcdecode-cpp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /data/ctcdecode-cpp /data/ctcdecode-cpp/3rd_party/kenlm/lm/builder /data/ctcdecode-cpp/build /data/ctcdecode-cpp/build/3rd_party/kenlm/lm/builder /data/ctcdecode-cpp/build/3rd_party/kenlm/lm/builder/CMakeFiles/kenlm_builder.dir/DependInfo.cmake --color=$(COLOR)
+	cd /data/work/ctcdecode-cpp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /data/work/ctcdecode-cpp /data/work/ctcdecode-cpp/3rd_party/kenlm/lm/builder /data/work/ctcdecode-cpp/build /data/work/ctcdecode-cpp/build/3rd_party/kenlm/lm/builder /data/work/ctcdecode-cpp/build/3rd_party/kenlm/lm/builder/CMakeFiles/kenlm_builder.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : 3rd_party/kenlm/lm/builder/CMakeFiles/kenlm_builder.dir/depend
 

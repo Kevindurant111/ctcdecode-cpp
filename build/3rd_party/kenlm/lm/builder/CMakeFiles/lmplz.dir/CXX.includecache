@@ -6,25 +6,25 @@
 
 #IncludeRegexTransform: 
 
-/data/ctcdecode-cpp/3rd_party/kenlm/lm/builder/adjust_counts.hh
+/data/work/ctcdecode-cpp/3rd_party/kenlm/lm/builder/adjust_counts.hh
 discount.hh
-/data/ctcdecode-cpp/3rd_party/kenlm/lm/builder/discount.hh
+/data/work/ctcdecode-cpp/3rd_party/kenlm/lm/builder/discount.hh
 ../lm_exception.hh
-/data/ctcdecode-cpp/3rd_party/kenlm/lm/lm_exception.hh
+/data/work/ctcdecode-cpp/3rd_party/kenlm/lm/lm_exception.hh
 ../../util/exception.hh
-/data/ctcdecode-cpp/3rd_party/kenlm/util/exception.hh
+/data/work/ctcdecode-cpp/3rd_party/kenlm/util/exception.hh
 vector
 -
 stdint.h
 -
 
-/data/ctcdecode-cpp/3rd_party/kenlm/lm/builder/discount.hh
+/data/work/ctcdecode-cpp/3rd_party/kenlm/lm/builder/discount.hh
 algorithm
 -
 stdint.h
 -
 
-/data/ctcdecode-cpp/3rd_party/kenlm/lm/builder/header_info.hh
+/data/work/ctcdecode-cpp/3rd_party/kenlm/lm/builder/header_info.hh
 string
 -
 vector
@@ -32,31 +32,31 @@ vector
 stdint.h
 -
 
-/data/ctcdecode-cpp/3rd_party/kenlm/lm/builder/initial_probabilities.hh
+/data/work/ctcdecode-cpp/3rd_party/kenlm/lm/builder/initial_probabilities.hh
 discount.hh
-/data/ctcdecode-cpp/3rd_party/kenlm/lm/builder/discount.hh
+/data/work/ctcdecode-cpp/3rd_party/kenlm/lm/builder/discount.hh
 ../word_index.hh
-/data/ctcdecode-cpp/3rd_party/kenlm/lm/word_index.hh
+/data/work/ctcdecode-cpp/3rd_party/kenlm/lm/word_index.hh
 ../../util/stream/config.hh
-/data/ctcdecode-cpp/3rd_party/kenlm/util/stream/config.hh
+/data/work/ctcdecode-cpp/3rd_party/kenlm/util/stream/config.hh
 vector
 -
 
-/data/ctcdecode-cpp/3rd_party/kenlm/lm/builder/lmplz_main.cc
+/data/work/ctcdecode-cpp/3rd_party/kenlm/lm/builder/lmplz_main.cc
 output.hh
-/data/ctcdecode-cpp/3rd_party/kenlm/lm/builder/output.hh
+/data/work/ctcdecode-cpp/3rd_party/kenlm/lm/builder/output.hh
 pipeline.hh
-/data/ctcdecode-cpp/3rd_party/kenlm/lm/builder/pipeline.hh
+/data/work/ctcdecode-cpp/3rd_party/kenlm/lm/builder/pipeline.hh
 ../common/size_option.hh
-/data/ctcdecode-cpp/3rd_party/kenlm/lm/common/size_option.hh
+/data/work/ctcdecode-cpp/3rd_party/kenlm/lm/common/size_option.hh
 ../lm_exception.hh
-/data/ctcdecode-cpp/3rd_party/kenlm/lm/lm_exception.hh
+/data/work/ctcdecode-cpp/3rd_party/kenlm/lm/lm_exception.hh
 ../../util/file.hh
-/data/ctcdecode-cpp/3rd_party/kenlm/util/file.hh
+/data/work/ctcdecode-cpp/3rd_party/kenlm/util/file.hh
 ../../util/file_piece.hh
-/data/ctcdecode-cpp/3rd_party/kenlm/util/file_piece.hh
+/data/work/ctcdecode-cpp/3rd_party/kenlm/util/file_piece.hh
 ../../util/usage.hh
-/data/ctcdecode-cpp/3rd_party/kenlm/util/usage.hh
+/data/work/ctcdecode-cpp/3rd_party/kenlm/util/usage.hh
 iostream
 -
 boost/program_options.hpp
@@ -66,53 +66,53 @@ boost/version.hpp
 vector
 -
 
-/data/ctcdecode-cpp/3rd_party/kenlm/lm/builder/output.hh
+/data/work/ctcdecode-cpp/3rd_party/kenlm/lm/builder/output.hh
 header_info.hh
-/data/ctcdecode-cpp/3rd_party/kenlm/lm/builder/header_info.hh
+/data/work/ctcdecode-cpp/3rd_party/kenlm/lm/builder/header_info.hh
 ../common/model_buffer.hh
-/data/ctcdecode-cpp/3rd_party/kenlm/lm/common/model_buffer.hh
+/data/work/ctcdecode-cpp/3rd_party/kenlm/lm/common/model_buffer.hh
 ../../util/file.hh
-/data/ctcdecode-cpp/3rd_party/kenlm/util/file.hh
+/data/work/ctcdecode-cpp/3rd_party/kenlm/util/file.hh
 boost/ptr_container/ptr_vector.hpp
 -
 boost/utility.hpp
 -
 
-/data/ctcdecode-cpp/3rd_party/kenlm/lm/builder/pipeline.hh
+/data/work/ctcdecode-cpp/3rd_party/kenlm/lm/builder/pipeline.hh
 adjust_counts.hh
-/data/ctcdecode-cpp/3rd_party/kenlm/lm/builder/adjust_counts.hh
+/data/work/ctcdecode-cpp/3rd_party/kenlm/lm/builder/adjust_counts.hh
 initial_probabilities.hh
-/data/ctcdecode-cpp/3rd_party/kenlm/lm/builder/initial_probabilities.hh
+/data/work/ctcdecode-cpp/3rd_party/kenlm/lm/builder/initial_probabilities.hh
 header_info.hh
-/data/ctcdecode-cpp/3rd_party/kenlm/lm/builder/header_info.hh
+/data/work/ctcdecode-cpp/3rd_party/kenlm/lm/builder/header_info.hh
 ../lm_exception.hh
-/data/ctcdecode-cpp/3rd_party/kenlm/lm/lm_exception.hh
+/data/work/ctcdecode-cpp/3rd_party/kenlm/lm/lm_exception.hh
 ../word_index.hh
-/data/ctcdecode-cpp/3rd_party/kenlm/lm/word_index.hh
+/data/work/ctcdecode-cpp/3rd_party/kenlm/lm/word_index.hh
 ../../util/stream/config.hh
-/data/ctcdecode-cpp/3rd_party/kenlm/util/stream/config.hh
+/data/work/ctcdecode-cpp/3rd_party/kenlm/util/stream/config.hh
 ../../util/file_piece.hh
-/data/ctcdecode-cpp/3rd_party/kenlm/util/file_piece.hh
+/data/work/ctcdecode-cpp/3rd_party/kenlm/util/file_piece.hh
 string
 -
 cstddef
 -
 
-/data/ctcdecode-cpp/3rd_party/kenlm/lm/common/model_buffer.hh
+/data/work/ctcdecode-cpp/3rd_party/kenlm/lm/common/model_buffer.hh
 ../word_index.hh
-/data/ctcdecode-cpp/3rd_party/kenlm/lm/word_index.hh
+/data/work/ctcdecode-cpp/3rd_party/kenlm/lm/word_index.hh
 ../../util/file.hh
-/data/ctcdecode-cpp/3rd_party/kenlm/util/file.hh
+/data/work/ctcdecode-cpp/3rd_party/kenlm/util/file.hh
 ../../util/fixed_array.hh
-/data/ctcdecode-cpp/3rd_party/kenlm/util/fixed_array.hh
+/data/work/ctcdecode-cpp/3rd_party/kenlm/util/fixed_array.hh
 ../../util/string_piece.hh
-/data/ctcdecode-cpp/3rd_party/kenlm/util/string_piece.hh
+/data/work/ctcdecode-cpp/3rd_party/kenlm/util/string_piece.hh
 string
 -
 vector
 -
 
-/data/ctcdecode-cpp/3rd_party/kenlm/lm/common/size_option.hh
+/data/work/ctcdecode-cpp/3rd_party/kenlm/lm/common/size_option.hh
 boost/program_options.hpp
 -
 cstddef
@@ -120,21 +120,21 @@ cstddef
 string
 -
 
-/data/ctcdecode-cpp/3rd_party/kenlm/lm/lm_exception.hh
+/data/work/ctcdecode-cpp/3rd_party/kenlm/lm/lm_exception.hh
 ../util/exception.hh
-/data/ctcdecode-cpp/3rd_party/kenlm/util/exception.hh
+/data/work/ctcdecode-cpp/3rd_party/kenlm/util/exception.hh
 ../util/string_piece.hh
-/data/ctcdecode-cpp/3rd_party/kenlm/util/string_piece.hh
+/data/work/ctcdecode-cpp/3rd_party/kenlm/util/string_piece.hh
 exception
 -
 string
 -
 
-/data/ctcdecode-cpp/3rd_party/kenlm/lm/word_index.hh
+/data/work/ctcdecode-cpp/3rd_party/kenlm/lm/word_index.hh
 climits
 -
 
-/data/ctcdecode-cpp/3rd_party/kenlm/util/ersatz_progress.hh
+/data/work/ctcdecode-cpp/3rd_party/kenlm/util/ersatz_progress.hh
 iostream
 -
 string
@@ -142,9 +142,9 @@ string
 stdint.h
 -
 
-/data/ctcdecode-cpp/3rd_party/kenlm/util/exception.hh
+/data/work/ctcdecode-cpp/3rd_party/kenlm/util/exception.hh
 string_stream.hh
-/data/ctcdecode-cpp/3rd_party/kenlm/util/string_stream.hh
+/data/work/ctcdecode-cpp/3rd_party/kenlm/util/string_stream.hh
 exception
 -
 limits
@@ -154,13 +154,13 @@ string
 stdint.h
 -
 
-/data/ctcdecode-cpp/3rd_party/kenlm/util/fake_ostream.hh
+/data/work/ctcdecode-cpp/3rd_party/kenlm/util/fake_ostream.hh
 float_to_string.hh
-/data/ctcdecode-cpp/3rd_party/kenlm/util/float_to_string.hh
+/data/work/ctcdecode-cpp/3rd_party/kenlm/util/float_to_string.hh
 integer_to_string.hh
-/data/ctcdecode-cpp/3rd_party/kenlm/util/integer_to_string.hh
+/data/work/ctcdecode-cpp/3rd_party/kenlm/util/integer_to_string.hh
 string_piece.hh
-/data/ctcdecode-cpp/3rd_party/kenlm/util/string_piece.hh
+/data/work/ctcdecode-cpp/3rd_party/kenlm/util/string_piece.hh
 cassert
 -
 limits
@@ -168,13 +168,13 @@ limits
 stdint.h
 -
 
-/data/ctcdecode-cpp/3rd_party/kenlm/util/file.hh
+/data/work/ctcdecode-cpp/3rd_party/kenlm/util/file.hh
 exception.hh
-/data/ctcdecode-cpp/3rd_party/kenlm/util/exception.hh
+/data/work/ctcdecode-cpp/3rd_party/kenlm/util/exception.hh
 scoped.hh
-/data/ctcdecode-cpp/3rd_party/kenlm/util/scoped.hh
+/data/work/ctcdecode-cpp/3rd_party/kenlm/util/scoped.hh
 string_piece.hh
-/data/ctcdecode-cpp/3rd_party/kenlm/util/string_piece.hh
+/data/work/ctcdecode-cpp/3rd_party/kenlm/util/string_piece.hh
 cstddef
 -
 cstdio
@@ -184,21 +184,21 @@ string
 stdint.h
 -
 
-/data/ctcdecode-cpp/3rd_party/kenlm/util/file_piece.hh
+/data/work/ctcdecode-cpp/3rd_party/kenlm/util/file_piece.hh
 ersatz_progress.hh
-/data/ctcdecode-cpp/3rd_party/kenlm/util/ersatz_progress.hh
+/data/work/ctcdecode-cpp/3rd_party/kenlm/util/ersatz_progress.hh
 exception.hh
-/data/ctcdecode-cpp/3rd_party/kenlm/util/exception.hh
+/data/work/ctcdecode-cpp/3rd_party/kenlm/util/exception.hh
 file.hh
-/data/ctcdecode-cpp/3rd_party/kenlm/util/file.hh
+/data/work/ctcdecode-cpp/3rd_party/kenlm/util/file.hh
 mmap.hh
-/data/ctcdecode-cpp/3rd_party/kenlm/util/mmap.hh
+/data/work/ctcdecode-cpp/3rd_party/kenlm/util/mmap.hh
 read_compressed.hh
-/data/ctcdecode-cpp/3rd_party/kenlm/util/read_compressed.hh
+/data/work/ctcdecode-cpp/3rd_party/kenlm/util/read_compressed.hh
 spaces.hh
-/data/ctcdecode-cpp/3rd_party/kenlm/util/spaces.hh
+/data/work/ctcdecode-cpp/3rd_party/kenlm/util/spaces.hh
 string_piece.hh
-/data/ctcdecode-cpp/3rd_party/kenlm/util/string_piece.hh
+/data/work/ctcdecode-cpp/3rd_party/kenlm/util/string_piece.hh
 cstddef
 -
 iosfwd
@@ -210,9 +210,9 @@ cassert
 stdint.h
 -
 
-/data/ctcdecode-cpp/3rd_party/kenlm/util/fixed_array.hh
+/data/work/ctcdecode-cpp/3rd_party/kenlm/util/fixed_array.hh
 scoped.hh
-/data/ctcdecode-cpp/3rd_party/kenlm/util/scoped.hh
+/data/work/ctcdecode-cpp/3rd_party/kenlm/util/scoped.hh
 cstddef
 -
 cassert
@@ -220,21 +220,21 @@ cassert
 cstdlib
 -
 
-/data/ctcdecode-cpp/3rd_party/kenlm/util/float_to_string.hh
+/data/work/ctcdecode-cpp/3rd_party/kenlm/util/float_to_string.hh
 integer_to_string.hh
-/data/ctcdecode-cpp/3rd_party/kenlm/util/integer_to_string.hh
+/data/work/ctcdecode-cpp/3rd_party/kenlm/util/integer_to_string.hh
 
-/data/ctcdecode-cpp/3rd_party/kenlm/util/have.hh
+/data/work/ctcdecode-cpp/3rd_party/kenlm/util/have.hh
 config.h
-/data/ctcdecode-cpp/3rd_party/kenlm/util/config.h
+/data/work/ctcdecode-cpp/3rd_party/kenlm/util/config.h
 
-/data/ctcdecode-cpp/3rd_party/kenlm/util/integer_to_string.hh
+/data/work/ctcdecode-cpp/3rd_party/kenlm/util/integer_to_string.hh
 cstddef
 -
 stdint.h
 -
 
-/data/ctcdecode-cpp/3rd_party/kenlm/util/mmap.hh
+/data/work/ctcdecode-cpp/3rd_party/kenlm/util/mmap.hh
 cstddef
 -
 limits
@@ -244,35 +244,35 @@ stdint.h
 sys/types.h
 -
 
-/data/ctcdecode-cpp/3rd_party/kenlm/util/read_compressed.hh
+/data/work/ctcdecode-cpp/3rd_party/kenlm/util/read_compressed.hh
 exception.hh
-/data/ctcdecode-cpp/3rd_party/kenlm/util/exception.hh
+/data/work/ctcdecode-cpp/3rd_party/kenlm/util/exception.hh
 scoped.hh
-/data/ctcdecode-cpp/3rd_party/kenlm/util/scoped.hh
+/data/work/ctcdecode-cpp/3rd_party/kenlm/util/scoped.hh
 cstddef
 -
 stdint.h
 -
 
-/data/ctcdecode-cpp/3rd_party/kenlm/util/scoped.hh
+/data/work/ctcdecode-cpp/3rd_party/kenlm/util/scoped.hh
 exception.hh
-/data/ctcdecode-cpp/3rd_party/kenlm/util/exception.hh
+/data/work/ctcdecode-cpp/3rd_party/kenlm/util/exception.hh
 cstddef
 -
 cstdlib
 -
 
-/data/ctcdecode-cpp/3rd_party/kenlm/util/spaces.hh
+/data/work/ctcdecode-cpp/3rd_party/kenlm/util/spaces.hh
 
-/data/ctcdecode-cpp/3rd_party/kenlm/util/stream/config.hh
+/data/work/ctcdecode-cpp/3rd_party/kenlm/util/stream/config.hh
 cstddef
 -
 string
 -
 
-/data/ctcdecode-cpp/3rd_party/kenlm/util/string_piece.hh
+/data/work/ctcdecode-cpp/3rd_party/kenlm/util/string_piece.hh
 have.hh
-/data/ctcdecode-cpp/3rd_party/kenlm/util/have.hh
+/data/work/ctcdecode-cpp/3rd_party/kenlm/util/have.hh
 cstring
 -
 iosfwd
@@ -292,15 +292,15 @@ string
 cstring
 -
 
-/data/ctcdecode-cpp/3rd_party/kenlm/util/string_stream.hh
+/data/work/ctcdecode-cpp/3rd_party/kenlm/util/string_stream.hh
 fake_ostream.hh
-/data/ctcdecode-cpp/3rd_party/kenlm/util/fake_ostream.hh
+/data/work/ctcdecode-cpp/3rd_party/kenlm/util/fake_ostream.hh
 cassert
 -
 string
 -
 
-/data/ctcdecode-cpp/3rd_party/kenlm/util/usage.hh
+/data/work/ctcdecode-cpp/3rd_party/kenlm/util/usage.hh
 cstddef
 -
 iosfwd

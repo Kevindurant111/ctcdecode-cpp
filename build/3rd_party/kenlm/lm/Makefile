@@ -67,10 +67,10 @@ RM = /opt/cmake-3.19.5/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /data/ctcdecode-cpp
+CMAKE_SOURCE_DIR = /data/work/ctcdecode-cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /data/ctcdecode-cpp/build
+CMAKE_BINARY_DIR = /data/work/ctcdecode-cpp/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -145,14 +145,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /data/ctcdecode-cpp/build && $(CMAKE_COMMAND) -E cmake_progress_start /data/ctcdecode-cpp/build/CMakeFiles /data/ctcdecode-cpp/build/3rd_party/kenlm/lm//CMakeFiles/progress.marks
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3rd_party/kenlm/lm/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /data/ctcdecode-cpp/build/CMakeFiles 0
+	cd /data/work/ctcdecode-cpp/build && $(CMAKE_COMMAND) -E cmake_progress_start /data/work/ctcdecode-cpp/build/CMakeFiles /data/work/ctcdecode-cpp/build/3rd_party/kenlm/lm//CMakeFiles/progress.marks
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3rd_party/kenlm/lm/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /data/work/ctcdecode-cpp/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3rd_party/kenlm/lm/clean
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3rd_party/kenlm/lm/clean
 .PHONY : clean
 
 # The main clean target
@@ -162,22 +162,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3rd_party/kenlm/lm/preinstall
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3rd_party/kenlm/lm/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3rd_party/kenlm/lm/preinstall
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3rd_party/kenlm/lm/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /data/ctcdecode-cpp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /data/work/ctcdecode-cpp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 3rd_party/kenlm/lm/CMakeFiles/query.dir/rule:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3rd_party/kenlm/lm/CMakeFiles/query.dir/rule
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3rd_party/kenlm/lm/CMakeFiles/query.dir/rule
 .PHONY : 3rd_party/kenlm/lm/CMakeFiles/query.dir/rule
 
 # Convenience name for target.
@@ -187,12 +187,12 @@ query: 3rd_party/kenlm/lm/CMakeFiles/query.dir/rule
 
 # fast build rule for target.
 query/fast:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/query.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/query.dir/build
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/query.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/query.dir/build
 .PHONY : query/fast
 
 # Convenience name for target.
 3rd_party/kenlm/lm/CMakeFiles/fragment.dir/rule:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3rd_party/kenlm/lm/CMakeFiles/fragment.dir/rule
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3rd_party/kenlm/lm/CMakeFiles/fragment.dir/rule
 .PHONY : 3rd_party/kenlm/lm/CMakeFiles/fragment.dir/rule
 
 # Convenience name for target.
@@ -202,12 +202,12 @@ fragment: 3rd_party/kenlm/lm/CMakeFiles/fragment.dir/rule
 
 # fast build rule for target.
 fragment/fast:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/fragment.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/fragment.dir/build
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/fragment.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/fragment.dir/build
 .PHONY : fragment/fast
 
 # Convenience name for target.
 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/rule:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/rule
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/rule
 .PHONY : 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/rule
 
 # Convenience name for target.
@@ -217,12 +217,12 @@ kenlm: 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/rule
 
 # fast build rule for target.
 kenlm/fast:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build
 .PHONY : kenlm/fast
 
 # Convenience name for target.
 3rd_party/kenlm/lm/CMakeFiles/build_binary.dir/rule:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3rd_party/kenlm/lm/CMakeFiles/build_binary.dir/rule
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3rd_party/kenlm/lm/CMakeFiles/build_binary.dir/rule
 .PHONY : 3rd_party/kenlm/lm/CMakeFiles/build_binary.dir/rule
 
 # Convenience name for target.
@@ -232,12 +232,12 @@ build_binary: 3rd_party/kenlm/lm/CMakeFiles/build_binary.dir/rule
 
 # fast build rule for target.
 build_binary/fast:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/build_binary.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/build_binary.dir/build
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/build_binary.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/build_binary.dir/build
 .PHONY : build_binary/fast
 
 # Convenience name for target.
 3rd_party/kenlm/lm/CMakeFiles/kenlm_benchmark.dir/rule:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3rd_party/kenlm/lm/CMakeFiles/kenlm_benchmark.dir/rule
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3rd_party/kenlm/lm/CMakeFiles/kenlm_benchmark.dir/rule
 .PHONY : 3rd_party/kenlm/lm/CMakeFiles/kenlm_benchmark.dir/rule
 
 # Convenience name for target.
@@ -247,7 +247,7 @@ kenlm_benchmark: 3rd_party/kenlm/lm/CMakeFiles/kenlm_benchmark.dir/rule
 
 # fast build rule for target.
 kenlm_benchmark/fast:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm_benchmark.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm_benchmark.dir/build
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm_benchmark.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm_benchmark.dir/build
 .PHONY : kenlm_benchmark/fast
 
 bhiksha.o: bhiksha.cc.o
@@ -256,7 +256,7 @@ bhiksha.o: bhiksha.cc.o
 
 # target to build an object file
 bhiksha.cc.o:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/bhiksha.cc.o
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/bhiksha.cc.o
 .PHONY : bhiksha.cc.o
 
 bhiksha.i: bhiksha.cc.i
@@ -265,7 +265,7 @@ bhiksha.i: bhiksha.cc.i
 
 # target to preprocess a source file
 bhiksha.cc.i:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/bhiksha.cc.i
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/bhiksha.cc.i
 .PHONY : bhiksha.cc.i
 
 bhiksha.s: bhiksha.cc.s
@@ -274,7 +274,7 @@ bhiksha.s: bhiksha.cc.s
 
 # target to generate assembly for a file
 bhiksha.cc.s:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/bhiksha.cc.s
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/bhiksha.cc.s
 .PHONY : bhiksha.cc.s
 
 binary_format.o: binary_format.cc.o
@@ -283,7 +283,7 @@ binary_format.o: binary_format.cc.o
 
 # target to build an object file
 binary_format.cc.o:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/binary_format.cc.o
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/binary_format.cc.o
 .PHONY : binary_format.cc.o
 
 binary_format.i: binary_format.cc.i
@@ -292,7 +292,7 @@ binary_format.i: binary_format.cc.i
 
 # target to preprocess a source file
 binary_format.cc.i:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/binary_format.cc.i
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/binary_format.cc.i
 .PHONY : binary_format.cc.i
 
 binary_format.s: binary_format.cc.s
@@ -301,7 +301,7 @@ binary_format.s: binary_format.cc.s
 
 # target to generate assembly for a file
 binary_format.cc.s:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/binary_format.cc.s
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/binary_format.cc.s
 .PHONY : binary_format.cc.s
 
 build_binary_main.o: build_binary_main.cc.o
@@ -310,7 +310,7 @@ build_binary_main.o: build_binary_main.cc.o
 
 # target to build an object file
 build_binary_main.cc.o:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/build_binary.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/build_binary.dir/build_binary_main.cc.o
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/build_binary.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/build_binary.dir/build_binary_main.cc.o
 .PHONY : build_binary_main.cc.o
 
 build_binary_main.i: build_binary_main.cc.i
@@ -319,7 +319,7 @@ build_binary_main.i: build_binary_main.cc.i
 
 # target to preprocess a source file
 build_binary_main.cc.i:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/build_binary.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/build_binary.dir/build_binary_main.cc.i
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/build_binary.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/build_binary.dir/build_binary_main.cc.i
 .PHONY : build_binary_main.cc.i
 
 build_binary_main.s: build_binary_main.cc.s
@@ -328,7 +328,7 @@ build_binary_main.s: build_binary_main.cc.s
 
 # target to generate assembly for a file
 build_binary_main.cc.s:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/build_binary.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/build_binary.dir/build_binary_main.cc.s
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/build_binary.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/build_binary.dir/build_binary_main.cc.s
 .PHONY : build_binary_main.cc.s
 
 common/model_buffer.o: common/model_buffer.cc.o
@@ -337,7 +337,7 @@ common/model_buffer.o: common/model_buffer.cc.o
 
 # target to build an object file
 common/model_buffer.cc.o:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/common/model_buffer.cc.o
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/common/model_buffer.cc.o
 .PHONY : common/model_buffer.cc.o
 
 common/model_buffer.i: common/model_buffer.cc.i
@@ -346,7 +346,7 @@ common/model_buffer.i: common/model_buffer.cc.i
 
 # target to preprocess a source file
 common/model_buffer.cc.i:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/common/model_buffer.cc.i
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/common/model_buffer.cc.i
 .PHONY : common/model_buffer.cc.i
 
 common/model_buffer.s: common/model_buffer.cc.s
@@ -355,7 +355,7 @@ common/model_buffer.s: common/model_buffer.cc.s
 
 # target to generate assembly for a file
 common/model_buffer.cc.s:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/common/model_buffer.cc.s
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/common/model_buffer.cc.s
 .PHONY : common/model_buffer.cc.s
 
 common/print.o: common/print.cc.o
@@ -364,7 +364,7 @@ common/print.o: common/print.cc.o
 
 # target to build an object file
 common/print.cc.o:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/common/print.cc.o
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/common/print.cc.o
 .PHONY : common/print.cc.o
 
 common/print.i: common/print.cc.i
@@ -373,7 +373,7 @@ common/print.i: common/print.cc.i
 
 # target to preprocess a source file
 common/print.cc.i:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/common/print.cc.i
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/common/print.cc.i
 .PHONY : common/print.cc.i
 
 common/print.s: common/print.cc.s
@@ -382,7 +382,7 @@ common/print.s: common/print.cc.s
 
 # target to generate assembly for a file
 common/print.cc.s:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/common/print.cc.s
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/common/print.cc.s
 .PHONY : common/print.cc.s
 
 common/renumber.o: common/renumber.cc.o
@@ -391,7 +391,7 @@ common/renumber.o: common/renumber.cc.o
 
 # target to build an object file
 common/renumber.cc.o:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/common/renumber.cc.o
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/common/renumber.cc.o
 .PHONY : common/renumber.cc.o
 
 common/renumber.i: common/renumber.cc.i
@@ -400,7 +400,7 @@ common/renumber.i: common/renumber.cc.i
 
 # target to preprocess a source file
 common/renumber.cc.i:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/common/renumber.cc.i
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/common/renumber.cc.i
 .PHONY : common/renumber.cc.i
 
 common/renumber.s: common/renumber.cc.s
@@ -409,7 +409,7 @@ common/renumber.s: common/renumber.cc.s
 
 # target to generate assembly for a file
 common/renumber.cc.s:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/common/renumber.cc.s
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/common/renumber.cc.s
 .PHONY : common/renumber.cc.s
 
 common/size_option.o: common/size_option.cc.o
@@ -418,7 +418,7 @@ common/size_option.o: common/size_option.cc.o
 
 # target to build an object file
 common/size_option.cc.o:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/common/size_option.cc.o
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/common/size_option.cc.o
 .PHONY : common/size_option.cc.o
 
 common/size_option.i: common/size_option.cc.i
@@ -427,7 +427,7 @@ common/size_option.i: common/size_option.cc.i
 
 # target to preprocess a source file
 common/size_option.cc.i:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/common/size_option.cc.i
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/common/size_option.cc.i
 .PHONY : common/size_option.cc.i
 
 common/size_option.s: common/size_option.cc.s
@@ -436,7 +436,7 @@ common/size_option.s: common/size_option.cc.s
 
 # target to generate assembly for a file
 common/size_option.cc.s:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/common/size_option.cc.s
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/common/size_option.cc.s
 .PHONY : common/size_option.cc.s
 
 config.o: config.cc.o
@@ -445,7 +445,7 @@ config.o: config.cc.o
 
 # target to build an object file
 config.cc.o:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/config.cc.o
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/config.cc.o
 .PHONY : config.cc.o
 
 config.i: config.cc.i
@@ -454,7 +454,7 @@ config.i: config.cc.i
 
 # target to preprocess a source file
 config.cc.i:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/config.cc.i
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/config.cc.i
 .PHONY : config.cc.i
 
 config.s: config.cc.s
@@ -463,7 +463,7 @@ config.s: config.cc.s
 
 # target to generate assembly for a file
 config.cc.s:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/config.cc.s
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/config.cc.s
 .PHONY : config.cc.s
 
 fragment_main.o: fragment_main.cc.o
@@ -472,7 +472,7 @@ fragment_main.o: fragment_main.cc.o
 
 # target to build an object file
 fragment_main.cc.o:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/fragment.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/fragment.dir/fragment_main.cc.o
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/fragment.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/fragment.dir/fragment_main.cc.o
 .PHONY : fragment_main.cc.o
 
 fragment_main.i: fragment_main.cc.i
@@ -481,7 +481,7 @@ fragment_main.i: fragment_main.cc.i
 
 # target to preprocess a source file
 fragment_main.cc.i:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/fragment.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/fragment.dir/fragment_main.cc.i
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/fragment.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/fragment.dir/fragment_main.cc.i
 .PHONY : fragment_main.cc.i
 
 fragment_main.s: fragment_main.cc.s
@@ -490,7 +490,7 @@ fragment_main.s: fragment_main.cc.s
 
 # target to generate assembly for a file
 fragment_main.cc.s:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/fragment.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/fragment.dir/fragment_main.cc.s
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/fragment.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/fragment.dir/fragment_main.cc.s
 .PHONY : fragment_main.cc.s
 
 kenlm_benchmark_main.o: kenlm_benchmark_main.cc.o
@@ -499,7 +499,7 @@ kenlm_benchmark_main.o: kenlm_benchmark_main.cc.o
 
 # target to build an object file
 kenlm_benchmark_main.cc.o:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm_benchmark.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm_benchmark.dir/kenlm_benchmark_main.cc.o
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm_benchmark.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm_benchmark.dir/kenlm_benchmark_main.cc.o
 .PHONY : kenlm_benchmark_main.cc.o
 
 kenlm_benchmark_main.i: kenlm_benchmark_main.cc.i
@@ -508,7 +508,7 @@ kenlm_benchmark_main.i: kenlm_benchmark_main.cc.i
 
 # target to preprocess a source file
 kenlm_benchmark_main.cc.i:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm_benchmark.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm_benchmark.dir/kenlm_benchmark_main.cc.i
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm_benchmark.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm_benchmark.dir/kenlm_benchmark_main.cc.i
 .PHONY : kenlm_benchmark_main.cc.i
 
 kenlm_benchmark_main.s: kenlm_benchmark_main.cc.s
@@ -517,7 +517,7 @@ kenlm_benchmark_main.s: kenlm_benchmark_main.cc.s
 
 # target to generate assembly for a file
 kenlm_benchmark_main.cc.s:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm_benchmark.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm_benchmark.dir/kenlm_benchmark_main.cc.s
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm_benchmark.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm_benchmark.dir/kenlm_benchmark_main.cc.s
 .PHONY : kenlm_benchmark_main.cc.s
 
 lm_exception.o: lm_exception.cc.o
@@ -526,7 +526,7 @@ lm_exception.o: lm_exception.cc.o
 
 # target to build an object file
 lm_exception.cc.o:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/lm_exception.cc.o
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/lm_exception.cc.o
 .PHONY : lm_exception.cc.o
 
 lm_exception.i: lm_exception.cc.i
@@ -535,7 +535,7 @@ lm_exception.i: lm_exception.cc.i
 
 # target to preprocess a source file
 lm_exception.cc.i:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/lm_exception.cc.i
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/lm_exception.cc.i
 .PHONY : lm_exception.cc.i
 
 lm_exception.s: lm_exception.cc.s
@@ -544,7 +544,7 @@ lm_exception.s: lm_exception.cc.s
 
 # target to generate assembly for a file
 lm_exception.cc.s:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/lm_exception.cc.s
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/lm_exception.cc.s
 .PHONY : lm_exception.cc.s
 
 model.o: model.cc.o
@@ -553,7 +553,7 @@ model.o: model.cc.o
 
 # target to build an object file
 model.cc.o:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/model.cc.o
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/model.cc.o
 .PHONY : model.cc.o
 
 model.i: model.cc.i
@@ -562,7 +562,7 @@ model.i: model.cc.i
 
 # target to preprocess a source file
 model.cc.i:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/model.cc.i
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/model.cc.i
 .PHONY : model.cc.i
 
 model.s: model.cc.s
@@ -571,7 +571,7 @@ model.s: model.cc.s
 
 # target to generate assembly for a file
 model.cc.s:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/model.cc.s
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/model.cc.s
 .PHONY : model.cc.s
 
 quantize.o: quantize.cc.o
@@ -580,7 +580,7 @@ quantize.o: quantize.cc.o
 
 # target to build an object file
 quantize.cc.o:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/quantize.cc.o
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/quantize.cc.o
 .PHONY : quantize.cc.o
 
 quantize.i: quantize.cc.i
@@ -589,7 +589,7 @@ quantize.i: quantize.cc.i
 
 # target to preprocess a source file
 quantize.cc.i:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/quantize.cc.i
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/quantize.cc.i
 .PHONY : quantize.cc.i
 
 quantize.s: quantize.cc.s
@@ -598,7 +598,7 @@ quantize.s: quantize.cc.s
 
 # target to generate assembly for a file
 quantize.cc.s:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/quantize.cc.s
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/quantize.cc.s
 .PHONY : quantize.cc.s
 
 query_main.o: query_main.cc.o
@@ -607,7 +607,7 @@ query_main.o: query_main.cc.o
 
 # target to build an object file
 query_main.cc.o:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/query.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/query.dir/query_main.cc.o
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/query.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/query.dir/query_main.cc.o
 .PHONY : query_main.cc.o
 
 query_main.i: query_main.cc.i
@@ -616,7 +616,7 @@ query_main.i: query_main.cc.i
 
 # target to preprocess a source file
 query_main.cc.i:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/query.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/query.dir/query_main.cc.i
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/query.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/query.dir/query_main.cc.i
 .PHONY : query_main.cc.i
 
 query_main.s: query_main.cc.s
@@ -625,7 +625,7 @@ query_main.s: query_main.cc.s
 
 # target to generate assembly for a file
 query_main.cc.s:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/query.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/query.dir/query_main.cc.s
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/query.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/query.dir/query_main.cc.s
 .PHONY : query_main.cc.s
 
 read_arpa.o: read_arpa.cc.o
@@ -634,7 +634,7 @@ read_arpa.o: read_arpa.cc.o
 
 # target to build an object file
 read_arpa.cc.o:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/read_arpa.cc.o
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/read_arpa.cc.o
 .PHONY : read_arpa.cc.o
 
 read_arpa.i: read_arpa.cc.i
@@ -643,7 +643,7 @@ read_arpa.i: read_arpa.cc.i
 
 # target to preprocess a source file
 read_arpa.cc.i:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/read_arpa.cc.i
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/read_arpa.cc.i
 .PHONY : read_arpa.cc.i
 
 read_arpa.s: read_arpa.cc.s
@@ -652,7 +652,7 @@ read_arpa.s: read_arpa.cc.s
 
 # target to generate assembly for a file
 read_arpa.cc.s:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/read_arpa.cc.s
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/read_arpa.cc.s
 .PHONY : read_arpa.cc.s
 
 search_hashed.o: search_hashed.cc.o
@@ -661,7 +661,7 @@ search_hashed.o: search_hashed.cc.o
 
 # target to build an object file
 search_hashed.cc.o:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/search_hashed.cc.o
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/search_hashed.cc.o
 .PHONY : search_hashed.cc.o
 
 search_hashed.i: search_hashed.cc.i
@@ -670,7 +670,7 @@ search_hashed.i: search_hashed.cc.i
 
 # target to preprocess a source file
 search_hashed.cc.i:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/search_hashed.cc.i
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/search_hashed.cc.i
 .PHONY : search_hashed.cc.i
 
 search_hashed.s: search_hashed.cc.s
@@ -679,7 +679,7 @@ search_hashed.s: search_hashed.cc.s
 
 # target to generate assembly for a file
 search_hashed.cc.s:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/search_hashed.cc.s
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/search_hashed.cc.s
 .PHONY : search_hashed.cc.s
 
 search_trie.o: search_trie.cc.o
@@ -688,7 +688,7 @@ search_trie.o: search_trie.cc.o
 
 # target to build an object file
 search_trie.cc.o:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/search_trie.cc.o
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/search_trie.cc.o
 .PHONY : search_trie.cc.o
 
 search_trie.i: search_trie.cc.i
@@ -697,7 +697,7 @@ search_trie.i: search_trie.cc.i
 
 # target to preprocess a source file
 search_trie.cc.i:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/search_trie.cc.i
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/search_trie.cc.i
 .PHONY : search_trie.cc.i
 
 search_trie.s: search_trie.cc.s
@@ -706,7 +706,7 @@ search_trie.s: search_trie.cc.s
 
 # target to generate assembly for a file
 search_trie.cc.s:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/search_trie.cc.s
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/search_trie.cc.s
 .PHONY : search_trie.cc.s
 
 sizes.o: sizes.cc.o
@@ -715,7 +715,7 @@ sizes.o: sizes.cc.o
 
 # target to build an object file
 sizes.cc.o:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/sizes.cc.o
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/sizes.cc.o
 .PHONY : sizes.cc.o
 
 sizes.i: sizes.cc.i
@@ -724,7 +724,7 @@ sizes.i: sizes.cc.i
 
 # target to preprocess a source file
 sizes.cc.i:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/sizes.cc.i
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/sizes.cc.i
 .PHONY : sizes.cc.i
 
 sizes.s: sizes.cc.s
@@ -733,7 +733,7 @@ sizes.s: sizes.cc.s
 
 # target to generate assembly for a file
 sizes.cc.s:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/sizes.cc.s
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/sizes.cc.s
 .PHONY : sizes.cc.s
 
 trie.o: trie.cc.o
@@ -742,7 +742,7 @@ trie.o: trie.cc.o
 
 # target to build an object file
 trie.cc.o:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/trie.cc.o
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/trie.cc.o
 .PHONY : trie.cc.o
 
 trie.i: trie.cc.i
@@ -751,7 +751,7 @@ trie.i: trie.cc.i
 
 # target to preprocess a source file
 trie.cc.i:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/trie.cc.i
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/trie.cc.i
 .PHONY : trie.cc.i
 
 trie.s: trie.cc.s
@@ -760,7 +760,7 @@ trie.s: trie.cc.s
 
 # target to generate assembly for a file
 trie.cc.s:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/trie.cc.s
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/trie.cc.s
 .PHONY : trie.cc.s
 
 trie_sort.o: trie_sort.cc.o
@@ -769,7 +769,7 @@ trie_sort.o: trie_sort.cc.o
 
 # target to build an object file
 trie_sort.cc.o:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/trie_sort.cc.o
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/trie_sort.cc.o
 .PHONY : trie_sort.cc.o
 
 trie_sort.i: trie_sort.cc.i
@@ -778,7 +778,7 @@ trie_sort.i: trie_sort.cc.i
 
 # target to preprocess a source file
 trie_sort.cc.i:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/trie_sort.cc.i
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/trie_sort.cc.i
 .PHONY : trie_sort.cc.i
 
 trie_sort.s: trie_sort.cc.s
@@ -787,7 +787,7 @@ trie_sort.s: trie_sort.cc.s
 
 # target to generate assembly for a file
 trie_sort.cc.s:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/trie_sort.cc.s
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/trie_sort.cc.s
 .PHONY : trie_sort.cc.s
 
 value_build.o: value_build.cc.o
@@ -796,7 +796,7 @@ value_build.o: value_build.cc.o
 
 # target to build an object file
 value_build.cc.o:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/value_build.cc.o
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/value_build.cc.o
 .PHONY : value_build.cc.o
 
 value_build.i: value_build.cc.i
@@ -805,7 +805,7 @@ value_build.i: value_build.cc.i
 
 # target to preprocess a source file
 value_build.cc.i:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/value_build.cc.i
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/value_build.cc.i
 .PHONY : value_build.cc.i
 
 value_build.s: value_build.cc.s
@@ -814,7 +814,7 @@ value_build.s: value_build.cc.s
 
 # target to generate assembly for a file
 value_build.cc.s:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/value_build.cc.s
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/value_build.cc.s
 .PHONY : value_build.cc.s
 
 virtual_interface.o: virtual_interface.cc.o
@@ -823,7 +823,7 @@ virtual_interface.o: virtual_interface.cc.o
 
 # target to build an object file
 virtual_interface.cc.o:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/virtual_interface.cc.o
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/virtual_interface.cc.o
 .PHONY : virtual_interface.cc.o
 
 virtual_interface.i: virtual_interface.cc.i
@@ -832,7 +832,7 @@ virtual_interface.i: virtual_interface.cc.i
 
 # target to preprocess a source file
 virtual_interface.cc.i:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/virtual_interface.cc.i
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/virtual_interface.cc.i
 .PHONY : virtual_interface.cc.i
 
 virtual_interface.s: virtual_interface.cc.s
@@ -841,7 +841,7 @@ virtual_interface.s: virtual_interface.cc.s
 
 # target to generate assembly for a file
 virtual_interface.cc.s:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/virtual_interface.cc.s
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/virtual_interface.cc.s
 .PHONY : virtual_interface.cc.s
 
 vocab.o: vocab.cc.o
@@ -850,7 +850,7 @@ vocab.o: vocab.cc.o
 
 # target to build an object file
 vocab.cc.o:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/vocab.cc.o
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/vocab.cc.o
 .PHONY : vocab.cc.o
 
 vocab.i: vocab.cc.i
@@ -859,7 +859,7 @@ vocab.i: vocab.cc.i
 
 # target to preprocess a source file
 vocab.cc.i:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/vocab.cc.i
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/vocab.cc.i
 .PHONY : vocab.cc.i
 
 vocab.s: vocab.cc.s
@@ -868,7 +868,7 @@ vocab.s: vocab.cc.s
 
 # target to generate assembly for a file
 vocab.cc.s:
-	cd /data/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/vocab.cc.s
+	cd /data/work/ctcdecode-cpp/build && $(MAKE) $(MAKESILENT) -f 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/build.make 3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/vocab.cc.s
 .PHONY : vocab.cc.s
 
 # Help Target
@@ -968,6 +968,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /data/ctcdecode-cpp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /data/work/ctcdecode-cpp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

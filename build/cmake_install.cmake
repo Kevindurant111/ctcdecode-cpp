@@ -1,4 +1,4 @@
-# Install script for directory: /data/ctcdecode-cpp
+# Install script for directory: /data/work/ctcdecode-cpp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -49,12 +49,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libctcdecode.so.1.0"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/data/ctcdecode-cpp/build/libctcdecode.so.1.0")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/data/work/ctcdecode-cpp/build/libctcdecode.so.1.0")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libctcdecode.so.1.0" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libctcdecode.so.1.0")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libctcdecode.so.1.0"
-         OLD_RPATH "/usr/local/lib:/data/ctcdecode-cpp/build/3rd_party/kenlm/lib:"
+         OLD_RPATH "/usr/local/lib:/data/work/ctcdecode-cpp/build/3rd_party/kenlm/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libctcdecode.so.1.0")
@@ -69,12 +69,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libctcdecode.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/data/ctcdecode-cpp/build/libctcdecode.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/data/work/ctcdecode-cpp/build/libctcdecode.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libctcdecode.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libctcdecode.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libctcdecode.so"
-         OLD_RPATH "/usr/local/lib:/data/ctcdecode-cpp/build/3rd_party/kenlm/lib:"
+         OLD_RPATH "/usr/local/lib:/data/work/ctcdecode-cpp/build/3rd_party/kenlm/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libctcdecode.so")
@@ -84,7 +84,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/data/ctcdecode-cpp/build/3rd_party/kenlm/cmake_install.cmake")
+  include("/data/work/ctcdecode-cpp/build/3rd_party/kenlm/cmake_install.cmake")
 
 endif()
 
@@ -96,5 +96,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/data/ctcdecode-cpp/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/data/work/ctcdecode-cpp/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

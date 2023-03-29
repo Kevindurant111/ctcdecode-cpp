@@ -62,10 +62,10 @@ RM = /opt/cmake-3.19.5/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /data/ctcdecode-cpp
+CMAKE_SOURCE_DIR = /data/work/ctcdecode-cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /data/ctcdecode-cpp/build
+CMAKE_BINARY_DIR = /data/work/ctcdecode-cpp/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ctcdecode.dir/depend.make
@@ -78,55 +78,55 @@ include CMakeFiles/ctcdecode.dir/flags.make
 
 CMakeFiles/ctcdecode.dir/src/ctc_beam_search_decoder.cpp.o: CMakeFiles/ctcdecode.dir/flags.make
 CMakeFiles/ctcdecode.dir/src/ctc_beam_search_decoder.cpp.o: ../src/ctc_beam_search_decoder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/data/ctcdecode-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ctcdecode.dir/src/ctc_beam_search_decoder.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ctcdecode.dir/src/ctc_beam_search_decoder.cpp.o -c /data/ctcdecode-cpp/src/ctc_beam_search_decoder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/data/work/ctcdecode-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ctcdecode.dir/src/ctc_beam_search_decoder.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ctcdecode.dir/src/ctc_beam_search_decoder.cpp.o -c /data/work/ctcdecode-cpp/src/ctc_beam_search_decoder.cpp
 
 CMakeFiles/ctcdecode.dir/src/ctc_beam_search_decoder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ctcdecode.dir/src/ctc_beam_search_decoder.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/ctcdecode-cpp/src/ctc_beam_search_decoder.cpp > CMakeFiles/ctcdecode.dir/src/ctc_beam_search_decoder.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/work/ctcdecode-cpp/src/ctc_beam_search_decoder.cpp > CMakeFiles/ctcdecode.dir/src/ctc_beam_search_decoder.cpp.i
 
 CMakeFiles/ctcdecode.dir/src/ctc_beam_search_decoder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ctcdecode.dir/src/ctc_beam_search_decoder.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/ctcdecode-cpp/src/ctc_beam_search_decoder.cpp -o CMakeFiles/ctcdecode.dir/src/ctc_beam_search_decoder.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/work/ctcdecode-cpp/src/ctc_beam_search_decoder.cpp -o CMakeFiles/ctcdecode.dir/src/ctc_beam_search_decoder.cpp.s
 
 CMakeFiles/ctcdecode.dir/src/decoder_utils.cpp.o: CMakeFiles/ctcdecode.dir/flags.make
 CMakeFiles/ctcdecode.dir/src/decoder_utils.cpp.o: ../src/decoder_utils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/data/ctcdecode-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ctcdecode.dir/src/decoder_utils.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ctcdecode.dir/src/decoder_utils.cpp.o -c /data/ctcdecode-cpp/src/decoder_utils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/data/work/ctcdecode-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ctcdecode.dir/src/decoder_utils.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ctcdecode.dir/src/decoder_utils.cpp.o -c /data/work/ctcdecode-cpp/src/decoder_utils.cpp
 
 CMakeFiles/ctcdecode.dir/src/decoder_utils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ctcdecode.dir/src/decoder_utils.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/ctcdecode-cpp/src/decoder_utils.cpp > CMakeFiles/ctcdecode.dir/src/decoder_utils.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/work/ctcdecode-cpp/src/decoder_utils.cpp > CMakeFiles/ctcdecode.dir/src/decoder_utils.cpp.i
 
 CMakeFiles/ctcdecode.dir/src/decoder_utils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ctcdecode.dir/src/decoder_utils.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/ctcdecode-cpp/src/decoder_utils.cpp -o CMakeFiles/ctcdecode.dir/src/decoder_utils.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/work/ctcdecode-cpp/src/decoder_utils.cpp -o CMakeFiles/ctcdecode.dir/src/decoder_utils.cpp.s
 
 CMakeFiles/ctcdecode.dir/src/path_trie.cpp.o: CMakeFiles/ctcdecode.dir/flags.make
 CMakeFiles/ctcdecode.dir/src/path_trie.cpp.o: ../src/path_trie.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/data/ctcdecode-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ctcdecode.dir/src/path_trie.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ctcdecode.dir/src/path_trie.cpp.o -c /data/ctcdecode-cpp/src/path_trie.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/data/work/ctcdecode-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ctcdecode.dir/src/path_trie.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ctcdecode.dir/src/path_trie.cpp.o -c /data/work/ctcdecode-cpp/src/path_trie.cpp
 
 CMakeFiles/ctcdecode.dir/src/path_trie.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ctcdecode.dir/src/path_trie.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/ctcdecode-cpp/src/path_trie.cpp > CMakeFiles/ctcdecode.dir/src/path_trie.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/work/ctcdecode-cpp/src/path_trie.cpp > CMakeFiles/ctcdecode.dir/src/path_trie.cpp.i
 
 CMakeFiles/ctcdecode.dir/src/path_trie.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ctcdecode.dir/src/path_trie.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/ctcdecode-cpp/src/path_trie.cpp -o CMakeFiles/ctcdecode.dir/src/path_trie.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/work/ctcdecode-cpp/src/path_trie.cpp -o CMakeFiles/ctcdecode.dir/src/path_trie.cpp.s
 
 CMakeFiles/ctcdecode.dir/src/scorer.cpp.o: CMakeFiles/ctcdecode.dir/flags.make
 CMakeFiles/ctcdecode.dir/src/scorer.cpp.o: ../src/scorer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/data/ctcdecode-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ctcdecode.dir/src/scorer.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ctcdecode.dir/src/scorer.cpp.o -c /data/ctcdecode-cpp/src/scorer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/data/work/ctcdecode-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ctcdecode.dir/src/scorer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ctcdecode.dir/src/scorer.cpp.o -c /data/work/ctcdecode-cpp/src/scorer.cpp
 
 CMakeFiles/ctcdecode.dir/src/scorer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ctcdecode.dir/src/scorer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/ctcdecode-cpp/src/scorer.cpp > CMakeFiles/ctcdecode.dir/src/scorer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/work/ctcdecode-cpp/src/scorer.cpp > CMakeFiles/ctcdecode.dir/src/scorer.cpp.i
 
 CMakeFiles/ctcdecode.dir/src/scorer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ctcdecode.dir/src/scorer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/ctcdecode-cpp/src/scorer.cpp -o CMakeFiles/ctcdecode.dir/src/scorer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/work/ctcdecode-cpp/src/scorer.cpp -o CMakeFiles/ctcdecode.dir/src/scorer.cpp.s
 
 # Object files for target ctcdecode
 ctcdecode_OBJECTS = \
@@ -152,7 +152,7 @@ libctcdecode.so.1.0: /usr/lib/aarch64-linux-gnu/libboost_thread.so.1.71.0
 libctcdecode.so.1.0: /usr/lib/aarch64-linux-gnu/libboost_atomic.so.1.71.0
 libctcdecode.so.1.0: /usr/lib/aarch64-linux-gnu/libboost_unit_test_framework.so.1.71.0
 libctcdecode.so.1.0: CMakeFiles/ctcdecode.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/data/ctcdecode-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library libctcdecode.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/data/work/ctcdecode-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library libctcdecode.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ctcdecode.dir/link.txt --verbose=$(VERBOSE)
 	$(CMAKE_COMMAND) -E cmake_symlink_library libctcdecode.so.1.0 libctcdecode.so.1.0 libctcdecode.so
 
@@ -169,6 +169,6 @@ CMakeFiles/ctcdecode.dir/clean:
 .PHONY : CMakeFiles/ctcdecode.dir/clean
 
 CMakeFiles/ctcdecode.dir/depend:
-	cd /data/ctcdecode-cpp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /data/ctcdecode-cpp /data/ctcdecode-cpp /data/ctcdecode-cpp/build /data/ctcdecode-cpp/build /data/ctcdecode-cpp/build/CMakeFiles/ctcdecode.dir/DependInfo.cmake --color=$(COLOR)
+	cd /data/work/ctcdecode-cpp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /data/work/ctcdecode-cpp /data/work/ctcdecode-cpp /data/work/ctcdecode-cpp/build /data/work/ctcdecode-cpp/build /data/work/ctcdecode-cpp/build/CMakeFiles/ctcdecode.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ctcdecode.dir/depend
 

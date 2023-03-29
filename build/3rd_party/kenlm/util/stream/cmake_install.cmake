@@ -1,4 +1,4 @@
-# Install script for directory: /data/ctcdecode-cpp/3rd_party/kenlm/util/stream
+# Install script for directory: /data/work/ctcdecode-cpp/3rd_party/kenlm/util/stream
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

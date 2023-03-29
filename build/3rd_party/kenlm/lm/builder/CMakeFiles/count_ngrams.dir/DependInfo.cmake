@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/data/ctcdecode-cpp/3rd_party/kenlm/lm/builder/count_ngrams_main.cc" "/data/ctcdecode-cpp/build/3rd_party/kenlm/lm/builder/CMakeFiles/count_ngrams.dir/count_ngrams_main.cc.o"
+  "/data/work/ctcdecode-cpp/3rd_party/kenlm/lm/builder/count_ngrams_main.cc" "/data/work/ctcdecode-cpp/build/3rd_party/kenlm/lm/builder/CMakeFiles/count_ngrams.dir/count_ngrams_main.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -27,9 +27,9 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/data/ctcdecode-cpp/build/3rd_party/kenlm/lm/builder/CMakeFiles/kenlm_builder.dir/DependInfo.cmake"
-  "/data/ctcdecode-cpp/build/3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/DependInfo.cmake"
-  "/data/ctcdecode-cpp/build/3rd_party/kenlm/util/CMakeFiles/kenlm_util.dir/DependInfo.cmake"
+  "/data/work/ctcdecode-cpp/build/3rd_party/kenlm/lm/builder/CMakeFiles/kenlm_builder.dir/DependInfo.cmake"
+  "/data/work/ctcdecode-cpp/build/3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/DependInfo.cmake"
+  "/data/work/ctcdecode-cpp/build/3rd_party/kenlm/util/CMakeFiles/kenlm_util.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.
