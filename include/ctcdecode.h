@@ -142,7 +142,6 @@ std::vector<std::pair<double, std::vector<int>>> ctc_beam_search_decoder(
  *     batch_log_probs_idx: 3-D vector that each element is a 2-D vector that
  can be used
  *                by ctc_beam_search_decoder().
- *     batch_root_trie: a batch of Path trie for each sequence
  *     batch_start: a batch of boolean value to indicate whether this is the
  first
  *                  chunk of each sequence
