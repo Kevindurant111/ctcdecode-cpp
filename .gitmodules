@@ -1,3 +1,6 @@
 [submodule "3rd_party/kenlm"]
 	path = 3rd_party/kenlm
 	url = https://github.com/kpu/kenlm.git
+[submodule "3rd_party/ThreadPool"]
+	path = 3rd_party/ThreadPool
+	url = https://github.com/progschj/ThreadPool.git
