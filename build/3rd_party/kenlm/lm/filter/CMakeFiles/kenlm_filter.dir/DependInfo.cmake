@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/data/work/ctcdecode-cpp/3rd_party/kenlm/lm/filter/arpa_io.cc" "/data/work/ctcdecode-cpp/build/3rd_party/kenlm/lm/filter/CMakeFiles/kenlm_filter.dir/arpa_io.cc.o"
-  "/data/work/ctcdecode-cpp/3rd_party/kenlm/lm/filter/phrase.cc" "/data/work/ctcdecode-cpp/build/3rd_party/kenlm/lm/filter/CMakeFiles/kenlm_filter.dir/phrase.cc.o"
-  "/data/work/ctcdecode-cpp/3rd_party/kenlm/lm/filter/vocab.cc" "/data/work/ctcdecode-cpp/build/3rd_party/kenlm/lm/filter/CMakeFiles/kenlm_filter.dir/vocab.cc.o"
+  "/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/lm/filter/arpa_io.cc" "/data/work/sophon-WeNet/cpp/ctcdecode-cpp/build/3rd_party/kenlm/lm/filter/CMakeFiles/kenlm_filter.dir/arpa_io.cc.o"
+  "/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/lm/filter/phrase.cc" "/data/work/sophon-WeNet/cpp/ctcdecode-cpp/build/3rd_party/kenlm/lm/filter/CMakeFiles/kenlm_filter.dir/phrase.cc.o"
+  "/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/lm/filter/vocab.cc" "/data/work/sophon-WeNet/cpp/ctcdecode-cpp/build/3rd_party/kenlm/lm/filter/CMakeFiles/kenlm_filter.dir/vocab.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -29,7 +29,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/data/work/ctcdecode-cpp/build/3rd_party/kenlm/util/CMakeFiles/kenlm_util.dir/DependInfo.cmake"
+  "/data/work/sophon-WeNet/cpp/ctcdecode-cpp/build/3rd_party/kenlm/util/CMakeFiles/kenlm_util.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

@@ -201,15 +201,22 @@ std::vector<std::vector<std::pair<double, std::vector<int>>>>
 ctc_beam_search_decoder_batch(
     const std::vector<std::vector<std::vector<double>>> &batch_log_probs_seq,
     const std::vector<std::vector<std::vector<int>>> &batch_log_probs_idx,
-    std::vector<PathTrie *> &batch_root_trie,
     const std::vector<bool> &batch_start, size_t beam_size,
     size_t num_processes, int blank_id, int space_id, double cutoff_prob,
     Scorer *ext_scorer) {
-  // thread pool
-  ThreadPool pool(num_processes);
+
   // number of samples
   size_t batch_size = batch_log_probs_seq.size();
 
+  // pathtrie root
+  std::vector<PathTrie *> batch_root_trie(batch_size, nullptr);
+  for (size_t i = 0; i < batch_size; i++) {
+    batch_root_trie[i] = new PathTrie();
+  }
+
+  // thread pool
+  ThreadPool pool(num_processes);
+  
   // enqueue the tasks of decoding
 
   std::vector<std::future<std::vector<std::pair<double, std::vector<int>>>>>
@@ -228,5 +235,11 @@ ctc_beam_search_decoder_batch(
   for (size_t i = 0; i < batch_size; ++i) {
     batch_results.emplace_back(res[i].get());
   }
+
+  // release the pathtrie root memory
+  for (size_t i = 0; i < batch_size; i++) {
+      delete batch_root_trie[i];
+  }
+  
   return batch_results;
 }

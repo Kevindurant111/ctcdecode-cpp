@@ -4,12 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/data/work/ctcdecode-cpp/3rd_party/kenlm/lm/builder/adjust_counts.cc" "/data/work/ctcdecode-cpp/build/3rd_party/kenlm/lm/builder/CMakeFiles/kenlm_builder.dir/adjust_counts.cc.o"
-  "/data/work/ctcdecode-cpp/3rd_party/kenlm/lm/builder/corpus_count.cc" "/data/work/ctcdecode-cpp/build/3rd_party/kenlm/lm/builder/CMakeFiles/kenlm_builder.dir/corpus_count.cc.o"
-  "/data/work/ctcdecode-cpp/3rd_party/kenlm/lm/builder/initial_probabilities.cc" "/data/work/ctcdecode-cpp/build/3rd_party/kenlm/lm/builder/CMakeFiles/kenlm_builder.dir/initial_probabilities.cc.o"
-  "/data/work/ctcdecode-cpp/3rd_party/kenlm/lm/builder/interpolate.cc" "/data/work/ctcdecode-cpp/build/3rd_party/kenlm/lm/builder/CMakeFiles/kenlm_builder.dir/interpolate.cc.o"
-  "/data/work/ctcdecode-cpp/3rd_party/kenlm/lm/builder/output.cc" "/data/work/ctcdecode-cpp/build/3rd_party/kenlm/lm/builder/CMakeFiles/kenlm_builder.dir/output.cc.o"
-  "/data/work/ctcdecode-cpp/3rd_party/kenlm/lm/builder/pipeline.cc" "/data/work/ctcdecode-cpp/build/3rd_party/kenlm/lm/builder/CMakeFiles/kenlm_builder.dir/pipeline.cc.o"
+  "/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/lm/builder/adjust_counts.cc" "/data/work/sophon-WeNet/cpp/ctcdecode-cpp/build/3rd_party/kenlm/lm/builder/CMakeFiles/kenlm_builder.dir/adjust_counts.cc.o"
+  "/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/lm/builder/corpus_count.cc" "/data/work/sophon-WeNet/cpp/ctcdecode-cpp/build/3rd_party/kenlm/lm/builder/CMakeFiles/kenlm_builder.dir/corpus_count.cc.o"
+  "/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/lm/builder/initial_probabilities.cc" "/data/work/sophon-WeNet/cpp/ctcdecode-cpp/build/3rd_party/kenlm/lm/builder/CMakeFiles/kenlm_builder.dir/initial_probabilities.cc.o"
+  "/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/lm/builder/interpolate.cc" "/data/work/sophon-WeNet/cpp/ctcdecode-cpp/build/3rd_party/kenlm/lm/builder/CMakeFiles/kenlm_builder.dir/interpolate.cc.o"
+  "/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/lm/builder/output.cc" "/data/work/sophon-WeNet/cpp/ctcdecode-cpp/build/3rd_party/kenlm/lm/builder/CMakeFiles/kenlm_builder.dir/output.cc.o"
+  "/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/lm/builder/pipeline.cc" "/data/work/sophon-WeNet/cpp/ctcdecode-cpp/build/3rd_party/kenlm/lm/builder/CMakeFiles/kenlm_builder.dir/pipeline.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -33,8 +33,8 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/data/work/ctcdecode-cpp/build/3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/DependInfo.cmake"
-  "/data/work/ctcdecode-cpp/build/3rd_party/kenlm/util/CMakeFiles/kenlm_util.dir/DependInfo.cmake"
+  "/data/work/sophon-WeNet/cpp/ctcdecode-cpp/build/3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/DependInfo.cmake"
+  "/data/work/sophon-WeNet/cpp/ctcdecode-cpp/build/3rd_party/kenlm/util/CMakeFiles/kenlm_util.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

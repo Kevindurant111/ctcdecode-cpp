@@ -162,7 +162,6 @@ std::vector<std::vector<std::pair<double, std::vector<int>>>>
 ctc_beam_search_decoder_batch(
     const std::vector<std::vector<std::vector<double>>> &batch_log_probs_seq,
     const std::vector<std::vector<std::vector<int>>> &batch_log_probs_idx,
-    std::vector<PathTrie *> &batch_root_trie,
     const std::vector<bool> &batch_start, size_t beam_size,
     size_t num_processes, int blank_id = 0, int space_id = -1,
     double cutoff_prob = 0.999, Scorer *ext_scorer = nullptr);

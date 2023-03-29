@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/data/work/ctcdecode-cpp/3rd_party/kenlm/lm/interpolate/streaming_example_main.cc" "/data/work/ctcdecode-cpp/build/3rd_party/kenlm/lm/interpolate/CMakeFiles/streaming_example.dir/streaming_example_main.cc.o"
+  "/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/lm/interpolate/streaming_example_main.cc" "/data/work/sophon-WeNet/cpp/ctcdecode-cpp/build/3rd_party/kenlm/lm/interpolate/CMakeFiles/streaming_example.dir/streaming_example_main.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -28,9 +28,9 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/data/work/ctcdecode-cpp/build/3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/DependInfo.cmake"
-  "/data/work/ctcdecode-cpp/build/3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/DependInfo.cmake"
-  "/data/work/ctcdecode-cpp/build/3rd_party/kenlm/util/CMakeFiles/kenlm_util.dir/DependInfo.cmake"
+  "/data/work/sophon-WeNet/cpp/ctcdecode-cpp/build/3rd_party/kenlm/lm/interpolate/CMakeFiles/kenlm_interpolate.dir/DependInfo.cmake"
+  "/data/work/sophon-WeNet/cpp/ctcdecode-cpp/build/3rd_party/kenlm/lm/CMakeFiles/kenlm.dir/DependInfo.cmake"
+  "/data/work/sophon-WeNet/cpp/ctcdecode-cpp/build/3rd_party/kenlm/util/CMakeFiles/kenlm_util.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

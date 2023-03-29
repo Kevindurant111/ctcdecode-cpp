@@ -6,35 +6,35 @@
 
 #IncludeRegexTransform: 
 
-/data/work/ctcdecode-cpp/3rd_party/kenlm/lm/common/compare.hh
+/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/lm/common/compare.hh
 ngram.hh
-/data/work/ctcdecode-cpp/3rd_party/kenlm/lm/common/ngram.hh
+/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/lm/common/ngram.hh
 ../word_index.hh
-/data/work/ctcdecode-cpp/3rd_party/kenlm/lm/word_index.hh
+/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/lm/word_index.hh
 functional
 -
 string
 -
 
-/data/work/ctcdecode-cpp/3rd_party/kenlm/lm/common/model_buffer.hh
+/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/lm/common/model_buffer.hh
 ../word_index.hh
-/data/work/ctcdecode-cpp/3rd_party/kenlm/lm/word_index.hh
+/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/lm/word_index.hh
 ../../util/file.hh
-/data/work/ctcdecode-cpp/3rd_party/kenlm/util/file.hh
+/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/util/file.hh
 ../../util/fixed_array.hh
-/data/work/ctcdecode-cpp/3rd_party/kenlm/util/fixed_array.hh
+/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/util/fixed_array.hh
 ../../util/string_piece.hh
-/data/work/ctcdecode-cpp/3rd_party/kenlm/util/string_piece.hh
+/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/util/string_piece.hh
 string
 -
 vector
 -
 
-/data/work/ctcdecode-cpp/3rd_party/kenlm/lm/common/ngram.hh
+/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/lm/common/ngram.hh
 ../weights.hh
-/data/work/ctcdecode-cpp/3rd_party/kenlm/lm/weights.hh
+/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/lm/weights.hh
 ../word_index.hh
-/data/work/ctcdecode-cpp/3rd_party/kenlm/lm/word_index.hh
+/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/lm/word_index.hh
 cstddef
 -
 cassert
@@ -44,27 +44,27 @@ stdint.h
 cstring
 -
 
-/data/work/ctcdecode-cpp/3rd_party/kenlm/lm/interpolate/split_worker.hh
+/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/lm/interpolate/split_worker.hh
 ../../util/stream/chain.hh
-/data/work/ctcdecode-cpp/3rd_party/kenlm/util/stream/chain.hh
+/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/util/stream/chain.hh
 ../../util/stream/stream.hh
-/data/work/ctcdecode-cpp/3rd_party/kenlm/util/stream/stream.hh
+/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/util/stream/stream.hh
 
-/data/work/ctcdecode-cpp/3rd_party/kenlm/lm/interpolate/streaming_example_main.cc
+/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/lm/interpolate/streaming_example_main.cc
 ../common/compare.hh
-/data/work/ctcdecode-cpp/3rd_party/kenlm/lm/common/compare.hh
+/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/lm/common/compare.hh
 ../common/model_buffer.hh
-/data/work/ctcdecode-cpp/3rd_party/kenlm/lm/common/model_buffer.hh
+/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/lm/common/model_buffer.hh
 ../common/ngram.hh
-/data/work/ctcdecode-cpp/3rd_party/kenlm/lm/common/ngram.hh
+/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/lm/common/ngram.hh
 ../../util/stream/chain.hh
-/data/work/ctcdecode-cpp/3rd_party/kenlm/util/stream/chain.hh
+/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/util/stream/chain.hh
 ../../util/stream/multi_stream.hh
-/data/work/ctcdecode-cpp/3rd_party/kenlm/util/stream/multi_stream.hh
+/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/util/stream/multi_stream.hh
 ../../util/stream/sort.hh
-/data/work/ctcdecode-cpp/3rd_party/kenlm/util/stream/sort.hh
+/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/util/stream/sort.hh
 split_worker.hh
-/data/work/ctcdecode-cpp/3rd_party/kenlm/lm/interpolate/split_worker.hh
+/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/lm/interpolate/split_worker.hh
 boost/program_options.hpp
 -
 boost/version.hpp
@@ -72,15 +72,15 @@ boost/version.hpp
 unistd.h
 -
 
-/data/work/ctcdecode-cpp/3rd_party/kenlm/lm/weights.hh
+/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/lm/weights.hh
 
-/data/work/ctcdecode-cpp/3rd_party/kenlm/lm/word_index.hh
+/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/lm/word_index.hh
 climits
 -
 
-/data/work/ctcdecode-cpp/3rd_party/kenlm/util/exception.hh
+/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/util/exception.hh
 string_stream.hh
-/data/work/ctcdecode-cpp/3rd_party/kenlm/util/string_stream.hh
+/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/util/string_stream.hh
 exception
 -
 limits
@@ -90,13 +90,13 @@ string
 stdint.h
 -
 
-/data/work/ctcdecode-cpp/3rd_party/kenlm/util/fake_ostream.hh
+/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/util/fake_ostream.hh
 float_to_string.hh
-/data/work/ctcdecode-cpp/3rd_party/kenlm/util/float_to_string.hh
+/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/util/float_to_string.hh
 integer_to_string.hh
-/data/work/ctcdecode-cpp/3rd_party/kenlm/util/integer_to_string.hh
+/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/util/integer_to_string.hh
 string_piece.hh
-/data/work/ctcdecode-cpp/3rd_party/kenlm/util/string_piece.hh
+/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/util/string_piece.hh
 cassert
 -
 limits
@@ -104,13 +104,13 @@ limits
 stdint.h
 -
 
-/data/work/ctcdecode-cpp/3rd_party/kenlm/util/file.hh
+/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/util/file.hh
 exception.hh
-/data/work/ctcdecode-cpp/3rd_party/kenlm/util/exception.hh
+/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/util/exception.hh
 scoped.hh
-/data/work/ctcdecode-cpp/3rd_party/kenlm/util/scoped.hh
+/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/util/scoped.hh
 string_piece.hh
-/data/work/ctcdecode-cpp/3rd_party/kenlm/util/string_piece.hh
+/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/util/string_piece.hh
 cstddef
 -
 cstdio
@@ -120,9 +120,9 @@ string
 stdint.h
 -
 
-/data/work/ctcdecode-cpp/3rd_party/kenlm/util/fixed_array.hh
+/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/util/fixed_array.hh
 scoped.hh
-/data/work/ctcdecode-cpp/3rd_party/kenlm/util/scoped.hh
+/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/util/scoped.hh
 cstddef
 -
 cassert
@@ -130,21 +130,21 @@ cassert
 cstdlib
 -
 
-/data/work/ctcdecode-cpp/3rd_party/kenlm/util/float_to_string.hh
+/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/util/float_to_string.hh
 integer_to_string.hh
-/data/work/ctcdecode-cpp/3rd_party/kenlm/util/integer_to_string.hh
+/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/util/integer_to_string.hh
 
-/data/work/ctcdecode-cpp/3rd_party/kenlm/util/have.hh
+/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/util/have.hh
 config.h
-/data/work/ctcdecode-cpp/3rd_party/kenlm/util/config.h
+/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/util/config.h
 
-/data/work/ctcdecode-cpp/3rd_party/kenlm/util/integer_to_string.hh
+/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/util/integer_to_string.hh
 cstddef
 -
 stdint.h
 -
 
-/data/work/ctcdecode-cpp/3rd_party/kenlm/util/pool.hh
+/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/util/pool.hh
 cassert
 -
 cstring
@@ -154,25 +154,25 @@ vector
 stdint.h
 -
 
-/data/work/ctcdecode-cpp/3rd_party/kenlm/util/proxy_iterator.hh
+/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/util/proxy_iterator.hh
 cstddef
 -
 iterator
 -
 
-/data/work/ctcdecode-cpp/3rd_party/kenlm/util/scoped.hh
+/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/util/scoped.hh
 exception.hh
-/data/work/ctcdecode-cpp/3rd_party/kenlm/util/exception.hh
+/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/util/exception.hh
 cstddef
 -
 cstdlib
 -
 
-/data/work/ctcdecode-cpp/3rd_party/kenlm/util/sized_iterator.hh
+/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/util/sized_iterator.hh
 pool.hh
-/data/work/ctcdecode-cpp/3rd_party/kenlm/util/pool.hh
+/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/util/pool.hh
 proxy_iterator.hh
-/data/work/ctcdecode-cpp/3rd_party/kenlm/util/proxy_iterator.hh
+/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/util/proxy_iterator.hh
 algorithm
 -
 functional
@@ -186,21 +186,21 @@ cstring
 stdlib.h
 -
 
-/data/work/ctcdecode-cpp/3rd_party/kenlm/util/stream/block.hh
+/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/util/stream/block.hh
 cstddef
 -
 stdint.h
 -
 
-/data/work/ctcdecode-cpp/3rd_party/kenlm/util/stream/chain.hh
+/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/util/stream/chain.hh
 block.hh
-/data/work/ctcdecode-cpp/3rd_party/kenlm/util/stream/block.hh
+/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/util/stream/block.hh
 config.hh
-/data/work/ctcdecode-cpp/3rd_party/kenlm/util/stream/config.hh
+/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/util/stream/config.hh
 multi_progress.hh
-/data/work/ctcdecode-cpp/3rd_party/kenlm/util/stream/multi_progress.hh
+/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/util/stream/multi_progress.hh
 ../scoped.hh
-/data/work/ctcdecode-cpp/3rd_party/kenlm/util/scoped.hh
+/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/util/scoped.hh
 boost/ptr_container/ptr_vector.hpp
 -
 boost/thread/thread.hpp
@@ -210,19 +210,19 @@ cstddef
 cassert
 -
 
-/data/work/ctcdecode-cpp/3rd_party/kenlm/util/stream/config.hh
+/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/util/stream/config.hh
 cstddef
 -
 string
 -
 
-/data/work/ctcdecode-cpp/3rd_party/kenlm/util/stream/io.hh
+/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/util/stream/io.hh
 ../exception.hh
-/data/work/ctcdecode-cpp/3rd_party/kenlm/util/exception.hh
+/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/util/exception.hh
 ../file.hh
-/data/work/ctcdecode-cpp/3rd_party/kenlm/util/file.hh
+/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/util/file.hh
 
-/data/work/ctcdecode-cpp/3rd_party/kenlm/util/stream/multi_progress.hh
+/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/util/stream/multi_progress.hh
 boost/thread/mutex.hpp
 -
 cstddef
@@ -230,15 +230,15 @@ cstddef
 stdint.h
 -
 
-/data/work/ctcdecode-cpp/3rd_party/kenlm/util/stream/multi_stream.hh
+/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/util/stream/multi_stream.hh
 ../fixed_array.hh
-/data/work/ctcdecode-cpp/3rd_party/kenlm/util/fixed_array.hh
+/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/util/fixed_array.hh
 ../scoped.hh
-/data/work/ctcdecode-cpp/3rd_party/kenlm/util/scoped.hh
+/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/util/scoped.hh
 chain.hh
-/data/work/ctcdecode-cpp/3rd_party/kenlm/util/stream/chain.hh
+/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/util/stream/chain.hh
 stream.hh
-/data/work/ctcdecode-cpp/3rd_party/kenlm/util/stream/stream.hh
+/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/util/stream/stream.hh
 cstddef
 -
 new
@@ -248,23 +248,23 @@ cassert
 cstdlib
 -
 
-/data/work/ctcdecode-cpp/3rd_party/kenlm/util/stream/sort.hh
+/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/util/stream/sort.hh
 chain.hh
-/data/work/ctcdecode-cpp/3rd_party/kenlm/util/stream/chain.hh
+/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/util/stream/chain.hh
 config.hh
-/data/work/ctcdecode-cpp/3rd_party/kenlm/util/stream/config.hh
+/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/util/stream/config.hh
 io.hh
-/data/work/ctcdecode-cpp/3rd_party/kenlm/util/stream/io.hh
+/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/util/stream/io.hh
 stream.hh
-/data/work/ctcdecode-cpp/3rd_party/kenlm/util/stream/stream.hh
+/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/util/stream/stream.hh
 ../file.hh
-/data/work/ctcdecode-cpp/3rd_party/kenlm/util/file.hh
+/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/util/file.hh
 ../fixed_array.hh
-/data/work/ctcdecode-cpp/3rd_party/kenlm/util/fixed_array.hh
+/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/util/fixed_array.hh
 ../scoped.hh
-/data/work/ctcdecode-cpp/3rd_party/kenlm/util/scoped.hh
+/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/util/scoped.hh
 ../sized_iterator.hh
-/data/work/ctcdecode-cpp/3rd_party/kenlm/util/sized_iterator.hh
+/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/util/sized_iterator.hh
 algorithm
 -
 iostream
@@ -274,9 +274,9 @@ queue
 string
 -
 
-/data/work/ctcdecode-cpp/3rd_party/kenlm/util/stream/stream.hh
+/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/util/stream/stream.hh
 chain.hh
-/data/work/ctcdecode-cpp/3rd_party/kenlm/util/stream/chain.hh
+/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/util/stream/chain.hh
 boost/noncopyable.hpp
 -
 cassert
@@ -284,9 +284,9 @@ cassert
 stdint.h
 -
 
-/data/work/ctcdecode-cpp/3rd_party/kenlm/util/string_piece.hh
+/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/util/string_piece.hh
 have.hh
-/data/work/ctcdecode-cpp/3rd_party/kenlm/util/have.hh
+/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/util/have.hh
 cstring
 -
 iosfwd
@@ -306,9 +306,9 @@ string
 cstring
 -
 
-/data/work/ctcdecode-cpp/3rd_party/kenlm/util/string_stream.hh
+/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/util/string_stream.hh
 fake_ostream.hh
-/data/work/ctcdecode-cpp/3rd_party/kenlm/util/fake_ostream.hh
+/data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/util/fake_ostream.hh
 cassert
 -
 string

@@ -1,4 +1,4 @@
-# Install script for directory: /data/work/ctcdecode-cpp/3rd_party/kenlm/lm
+# Install script for directory: /data/work/sophon-WeNet/cpp/ctcdecode-cpp/3rd_party/kenlm/lm
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -37,11 +37,6 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
-# Set default install directory permissions.
-if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/usr/bin/objdump")
-endif()
-
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libkenlm.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libkenlm.so")
@@ -49,12 +44,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libkenlm.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/data/work/ctcdecode-cpp/build/3rd_party/kenlm/lib/libkenlm.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/data/work/sophon-WeNet/cpp/ctcdecode-cpp/build/3rd_party/kenlm/lib/libkenlm.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libkenlm.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libkenlm.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libkenlm.so"
-         OLD_RPATH "/data/work/ctcdecode-cpp/build/3rd_party/kenlm/lib:"
+         OLD_RPATH "/data/work/sophon-WeNet/cpp/ctcdecode-cpp/build/3rd_party/kenlm/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libkenlm.so")
@@ -72,12 +67,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/query"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/data/work/ctcdecode-cpp/build/3rd_party/kenlm/bin/query")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/data/work/sophon-WeNet/cpp/ctcdecode-cpp/build/3rd_party/kenlm/bin/query")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/query" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/query")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/query"
-         OLD_RPATH "/data/work/ctcdecode-cpp/build/3rd_party/kenlm/lib:"
+         OLD_RPATH "/data/work/sophon-WeNet/cpp/ctcdecode-cpp/build/3rd_party/kenlm/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/query")
@@ -92,12 +87,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/fragment"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/data/work/ctcdecode-cpp/build/3rd_party/kenlm/bin/fragment")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/data/work/sophon-WeNet/cpp/ctcdecode-cpp/build/3rd_party/kenlm/bin/fragment")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/fragment" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/fragment")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/fragment"
-         OLD_RPATH "/data/work/ctcdecode-cpp/build/3rd_party/kenlm/lib:"
+         OLD_RPATH "/data/work/sophon-WeNet/cpp/ctcdecode-cpp/build/3rd_party/kenlm/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/fragment")
@@ -112,12 +107,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/build_binary"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/data/work/ctcdecode-cpp/build/3rd_party/kenlm/bin/build_binary")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/data/work/sophon-WeNet/cpp/ctcdecode-cpp/build/3rd_party/kenlm/bin/build_binary")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/build_binary" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/build_binary")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/build_binary"
-         OLD_RPATH "/data/work/ctcdecode-cpp/build/3rd_party/kenlm/lib:"
+         OLD_RPATH "/data/work/sophon-WeNet/cpp/ctcdecode-cpp/build/3rd_party/kenlm/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/build_binary")
@@ -132,12 +127,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/kenlm_benchmark"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/data/work/ctcdecode-cpp/build/3rd_party/kenlm/bin/kenlm_benchmark")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/data/work/sophon-WeNet/cpp/ctcdecode-cpp/build/3rd_party/kenlm/bin/kenlm_benchmark")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/kenlm_benchmark" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/kenlm_benchmark")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/kenlm_benchmark"
-         OLD_RPATH "/data/work/ctcdecode-cpp/build/3rd_party/kenlm/lib:"
+         OLD_RPATH "/data/work/sophon-WeNet/cpp/ctcdecode-cpp/build/3rd_party/kenlm/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/kenlm_benchmark")
@@ -147,10 +142,10 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/data/work/ctcdecode-cpp/build/3rd_party/kenlm/lm/common/cmake_install.cmake")
-  include("/data/work/ctcdecode-cpp/build/3rd_party/kenlm/lm/builder/cmake_install.cmake")
-  include("/data/work/ctcdecode-cpp/build/3rd_party/kenlm/lm/filter/cmake_install.cmake")
-  include("/data/work/ctcdecode-cpp/build/3rd_party/kenlm/lm/interpolate/cmake_install.cmake")
+  include("/data/work/sophon-WeNet/cpp/ctcdecode-cpp/build/3rd_party/kenlm/lm/common/cmake_install.cmake")
+  include("/data/work/sophon-WeNet/cpp/ctcdecode-cpp/build/3rd_party/kenlm/lm/builder/cmake_install.cmake")
+  include("/data/work/sophon-WeNet/cpp/ctcdecode-cpp/build/3rd_party/kenlm/lm/filter/cmake_install.cmake")
+  include("/data/work/sophon-WeNet/cpp/ctcdecode-cpp/build/3rd_party/kenlm/lm/interpolate/cmake_install.cmake")
 
 endif()
 
