@@ -1,6 +1,6 @@
 # ctcdecode-cpp
 
-A ctc decoder implemented in C++, compiled into a dynamic link library, and exposing the available interfaces via ctcdecode.h
+A ctc decoder implemented in C++, compiled into a dynamic link library, and exposing the available interfaces via ctcdecode.h. This is a fork of [ctc_decoder](https://github.com/Slyne/ctc_decoder) and [ctcdecode-cpp](https://github.com/jindrahelcl/ctcdecode-cpp), with appropriate modifications made.
 
 ## Installation & Compilation
 ```bash
