@@ -24,6 +24,8 @@ make
 include_directories(xxx)
 # Please replace xxx with an absolute path to ctcdecode-cpp/build/libctcdecode.so
 target_link_libraries(${PROJECT_NAME} xxx)
-```
+```   
+## License  
+This project is licensed under the MIT License. Please include the copyright and license notice of this project when using it.
 
 
