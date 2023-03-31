@@ -1,3 +1,9 @@
+/*
+ * Author: qianhao.zhai
+ * E-mail: qianhao.zhai@sophgo.com
+ * Code usage: Post-processing interface for the C++ version of Wenet
+ */
+
 #include "util.h"
 
 std::vector<std::string> read_dict(const std::string& dict_file) {
