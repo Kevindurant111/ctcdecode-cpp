@@ -4,9 +4,14 @@ A ctc decoder implemented in C++, compiled into a dynamic link library, and expo
 
 ## Installation & Compilation
 ```bash
+git clone https://github.com/Kevindurant111/ctcdecode-cpp.git
+
 # fetch kenlm and ThreadPool
 git submodule init
 git submodule update
+
+# install libbz2
+sudo apt-get install libbz2-dev
 
 # download openfst
 wget http://www.openfst.org/twiki/pub/FST/FstDownload/openfst-1.6.3.tar.gz
