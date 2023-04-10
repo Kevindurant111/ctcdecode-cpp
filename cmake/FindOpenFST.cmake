@@ -3,7 +3,7 @@
 # OPENFST_DIR
 
 find_path(OPENFST_INCLUDE_DIR fst.h ${OPENFST_ROOT}/include/fst)
-find_library(OPENFST_LIB fst PATHS ${OPENFST_ROOT}/lib)
+find_library(OPENFST_LIB fst PATHS ${OPENFST_ROOT}/lib/.libs)
 
 if(OPENFST_INCLUDE_DIR)
   set(OPENFST_FOUND 1)
