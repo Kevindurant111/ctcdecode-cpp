@@ -10,12 +10,14 @@ git clone https://github.com/Kevindurant111/ctcdecode-cpp.git
 git submodule init
 git submodule update
 
-# install libbz2
-sudo apt-get install libbz2-dev
+# install bz2 and lzma
+sudo apt-get install libbz2-dev liblzma-dev
 
-# download openfst
+# download and compile openfst
 wget http://www.openfst.org/twiki/pub/FST/FstDownload/openfst-1.6.3.tar.gz
 tar -xzvf openfst-1.6.3.tar.gz
+./configure
+make
 
 mkdir build & cd build
 # Please replace xxx with an absolute path to openfst-1.6.3/src
