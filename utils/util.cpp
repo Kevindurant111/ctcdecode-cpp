@@ -1,9 +1,3 @@
-/*
- * Author: qianhao.zhai
- * E-mail: qianhao.zhai@sophgo.com
- * Code usage: Post-processing interface for the C++ version of Wenet
- */
-
 #include "util.h"
 
 std::vector<std::string> read_dict(const std::string& dict_file) {
@@ -28,7 +22,7 @@ std::vector<std::string> read_dict(const std::string& dict_file) {
     return vocabulary;
 }
 
-std::vector<std::string> ctc_decoding(void* log_probs, void* log_probs_idx, void* chunk_out_lens, int beam_size, int batch_size, const std::vector<std::string> &vocabulary, const std::string& mode) {
+std::vector<std::string> ctc_decoding(void* log_probs, void* log_probs_idx, void* chunk_out_lens, int beam_size, int batch_size, const std::vector<std::string> &vocabulary, std::vector<std::vector<std::pair<double, std::vector<int>>>>& score_hyps, const std::string& mode) {
     int num_cores = std::thread::hardware_concurrency();
     size_t num_processes = std::min(num_cores, batch_size);
     std::vector<std::string> hyps;
@@ -74,10 +68,10 @@ std::vector<std::string> ctc_decoding(void* log_probs, void* log_probs_idx, void
     }
     else if(mode == "ctc_prefix_beam_search" || mode == "attention_rescoring"){
         std::vector<bool> batch_start(batch_size, true);
-        auto batch_results = ctc_beam_search_decoder_batch(log_probs_vector, log_probs_idx_vector, batch_start, beam_size, num_processes, 0, -2, 0.99999);
+        score_hyps = ctc_beam_search_decoder_batch(log_probs_vector, log_probs_idx_vector, batch_start, beam_size, num_processes, 0, -2, 0.99999);
         if(mode == "ctc_prefix_beam_search") {
             std::vector<std::vector<int>> batch_sents;
-            for(const auto& cand_hyps : batch_results) {
+            for(const auto& cand_hyps : score_hyps) {
                 batch_sents.push_back(cand_hyps[0].second);
             }
             hyps = map_batch(batch_sents, vocabulary, num_processes, false, 0);
