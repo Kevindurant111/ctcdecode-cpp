@@ -5,6 +5,7 @@ A ctc decoder implemented in C++, compiled into a dynamic link library, and expo
 ## Installation & Compilation
 ```bash
 git clone https://github.com/Kevindurant111/ctcdecode-cpp.git
+cd ctcdecode-cpp/
 
 # fetch kenlm and ThreadPool
 git submodule init
@@ -19,6 +20,7 @@ tar -xzvf openfst-1.6.3.tar.gz
 cd openfst-1.6.3/
 ./configure
 make
+cd ..
 
 mkdir build && cd build
 # Please replace xxx with an absolute path to openfst-1.6.3/src
