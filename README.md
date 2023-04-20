@@ -15,6 +15,7 @@ sudo apt-get install libbz2-dev liblzma-dev
 
 # download and compile openfst
 wget http://www.openfst.org/twiki/pub/FST/FstDownload/openfst-1.6.3.tar.gz
+cd openfst-1.6.3/
 tar -xzvf openfst-1.6.3.tar.gz
 ./configure
 make
