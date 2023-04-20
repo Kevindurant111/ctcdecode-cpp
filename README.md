@@ -20,7 +20,7 @@ cd openfst-1.6.3/
 ./configure
 make
 
-mkdir build & cd build
+mkdir build && cd build
 # Please replace xxx with an absolute path to openfst-1.6.3/src
 cmake -DOPENFST_ROOT=xxx ..
 make
